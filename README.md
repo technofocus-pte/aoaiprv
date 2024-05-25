@@ -1,4 +1,3 @@
-# aoaiprv
 ### Technofocus Azure Open AI Workshop 
 About the workshop
 <<Introduction>>
