@@ -185,7 +185,7 @@ alt="A screenshot of a computer Description automatically generated" />
 <p><strong>Resource group</strong></p>
 </blockquote></td>
 <td>Click on <strong>Create new</strong>&gt; enter
-<strong>AOAI-RGXX</strong>(XX can be a unique number, you can add more
+<strong>```copy>AOAI-RGXX</strong>(XX can be a unique number, you can add more
 digits after XX to make the name unique)</td>
 </tr>
 <tr class="even">
@@ -286,8 +286,7 @@ service disruption*.
     num2words, matplotlib, plotly, scipy, scikit-learn, pandas, tiktoken
 
 >```Copy
->   pip install openai num2words matplotlib plotly scipy
-scikit-learn pandas tiktoken
+>   pip install openai num2words matplotlib plotly scipy scikit-learn pandas tiktoken
 
 <img src="media/image34.png" style="width:6.5in;height:4.45694in" />
 
