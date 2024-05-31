@@ -184,8 +184,8 @@ alt="A screenshot of a computer Description automatically generated" />
 <td><blockquote>
 <p><strong>Resource group</strong></p>
 </blockquote></td>
-<td>Click on <strong>Create new</strong>&gt; enter
-<strong>```copy>AOAI-RGXX</strong>(XX can be a unique number, you can add more
+<td>Click on <strong>Create new</strong>&gt; enter```
+<strong>AOAI-RGXX</strong>(XX can be a unique number, you can add more
 digits after XX to make the name unique)</td>
 </tr>
 <tr class="even">
