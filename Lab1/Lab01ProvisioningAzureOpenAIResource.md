@@ -24,7 +24,7 @@ provisioning Azure OpenAI resource in the Azure portal.
 1.  In your VM, navigate and click in the **Search bar**, type
     **Settings** and then click on **Settings** under **Best match**.
 
-> ![](./images/Picture1.png){width="4.653939195100612in"
+> ![](https://github.com/technofocus-pte/aoaiprv/blob/main/images/Picture1.png){width="4.653939195100612in"
 > height="3.9995505249343832in"}
 
 2.  On Settings window, navigate and click on **Time & language**.
