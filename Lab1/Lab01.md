@@ -279,7 +279,7 @@ service disruption*.
 
 > copy
 >
-> **<span class="mark">python -m pip install --upgrade pip</span>**
+> **<span class="mark">```python -m pip install --upgrade pip```</span>**
 >
 > <img src="media/image33.png" style="width:6.5in;height:2.075in" />
 
