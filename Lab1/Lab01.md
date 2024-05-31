@@ -277,7 +277,8 @@ service disruption*.
 2.  Move into the folder where the Python was installed and run the
     **pip** command. i.e., **C:\Users\Admin**
 
-> ```copy python -m pip install --upgrade pip
+> ```copy
+>  python -m pip install --upgrade pip
 
  <img src="media/image33.png" style="width:6.5in;height:2.075in" />
 
