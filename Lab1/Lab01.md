@@ -184,7 +184,7 @@ alt="A screenshot of a computer Description automatically generated" />
 <td><blockquote>
 <p><strong>Resource group</strong></p>
 </blockquote></td>
-<td>Click on <strong>Create new</strong>&gt; enter
+<td>Click on <strong>Create new</strong>&gt; enter```
 <strong>AOAI-RGXX</strong>(XX can be a unique number, you can add more
 digits after XX to make the name unique)</td>
 </tr>
@@ -279,7 +279,7 @@ service disruption*.
 
 > ```copy
 >
-> **<span class="mark">python -m pip install --upgrade pip</span>**
+> python -m pip install --upgrade pip
 >
 > <img src="media/image33.png" style="width:6.5in;height:2.075in" />
 
