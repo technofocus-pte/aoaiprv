@@ -286,8 +286,7 @@ service disruption*.
     num2words, matplotlib, plotly, scipy, scikit-learn, pandas, tiktoken
 
 >```Copy
-
-pip install openai num2words matplotlib plotly scipy
+>   pip install openai num2words matplotlib plotly scipy
 scikit-learn pandas tiktoken
 
 <img src="media/image34.png" style="width:6.5in;height:4.45694in" />
@@ -297,8 +296,7 @@ scikit-learn pandas tiktoken
 4.  Run the below command to install the Transformers package:
 
 > ```Copy
-
-pip install transformers
+>   pip install transformers
 
 <img src="media/image36.png" style="width:6.5in;height:3.28611in"
 alt="Text Description automatically generated" />
