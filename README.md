@@ -37,4 +37,4 @@ Lab 14 - Moderate text and images with content safety in Azure AI Studio
 Lab 15 - Azure OpenAI GPT 3.5 Turbo fine-tuning
 
 Lab 16 - Enabling advanced data analytics on business database and answering questions using Azure OpenAI Service 
-L
+
