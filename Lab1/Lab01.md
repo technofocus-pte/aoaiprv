@@ -184,7 +184,7 @@ alt="A screenshot of a computer Description automatically generated" />
 <td><blockquote>
 <p><strong>Resource group</strong></p>
 </blockquote></td>
-<td>Click on <strong>Create new</strong>&gt; enter```copy
+<td>Click on <strong>Create new</strong>&gt; enter
 <strong>AOAI-RGXX</strong>(XX can be a unique number, you can add more
 digits after XX to make the name unique)</td>
 </tr>
@@ -286,10 +286,10 @@ service disruption*.
 3.  Run the following command to install Python libraries - openai,
     num2words, matplotlib, plotly, scipy, scikit-learn, pandas, tiktoken
 
-Copy
+>```Copy
 
-<span class="mark">pip install openai num2words matplotlib plotly scipy
-scikit-learn pandas tiktoken</span>
+pip install openai num2words matplotlib plotly scipy
+scikit-learn pandas tiktoken
 
 <img src="media/image34.png" style="width:6.5in;height:4.45694in" />
 
@@ -297,9 +297,9 @@ scikit-learn pandas tiktoken</span>
 
 4.  Run the below command to install the Transformers package:
 
-> Copy
+> ```Copy
 >
-> <span class="mark">pip install transformers</span>
+> pip install transformers
 
 <img src="media/image36.png" style="width:6.5in;height:3.28611in"
 alt="Text Description automatically generated" />
