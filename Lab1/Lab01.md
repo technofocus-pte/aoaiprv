@@ -278,10 +278,9 @@ service disruption*.
     **pip** command. i.e., **C:\Users\Admin**
 
 > ```copy
->
-> python -m pip install --upgrade pip
->
-> <img src="media/image33.png" style="width:6.5in;height:2.075in" />
+python -m pip install --upgrade pip
+
+ <img src="media/image33.png" style="width:6.5in;height:2.075in" />
 
 3.  Run the following command to install Python libraries - openai,
     num2words, matplotlib, plotly, scipy, scikit-learn, pandas, tiktoken
@@ -298,8 +297,8 @@ scikit-learn pandas tiktoken
 4.  Run the below command to install the Transformers package:
 
 > ```Copy
->
-> pip install transformers
+
+pip install transformers
 
 <img src="media/image36.png" style="width:6.5in;height:3.28611in"
 alt="Text Description automatically generated" />
