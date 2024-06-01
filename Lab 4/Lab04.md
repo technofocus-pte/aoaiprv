@@ -1,3 +1,5 @@
+**Lab 04 -Speech to text with the Azure OpenAI Whisper model**
+
 **Introduction**
 
 The OpenAI Whisper model is an encoder-decoder Transformer that can
