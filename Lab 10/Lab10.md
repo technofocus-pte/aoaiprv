@@ -444,17 +444,15 @@ alt="A screenshot of a computer program Description automatically generated" />
     import the Azure.AI.OpenAI package from NuGet specifying a
     prerelease version.
 
-> BashCopy
->
+> ```Copy
 > dotnet add package Azure.AI.OpenAI --prerelease
 
 <img src="./media/image53.png" style="width:6.49167in;height:4.475in" />
 
 3.  Build the .NET project again.
 
-> BashCopy
->
-> <span class="mark">dotnet build</span>
+> ```Copy
+>dotnet build
 
 <img src="./media/image54.png"
 style="width:6.49167in;height:6.03333in" />
@@ -482,7 +480,7 @@ environment name to work.
 2.  Within the file, create a new JSON object with a placeholder
     property for OpenAi settings.
 
-> JSONCopy
+> ```Copy
 >
 > {
 >
@@ -496,7 +494,7 @@ environment name to work.
     the Endpoint and Key. Use the Azure OpenAI endpoint and key settings
     you recorded earlier in this lab(Exercise 1\>Task 2).
 
-> JSONCopy
+> ```Copy
 >
 > {
 >
@@ -528,32 +526,24 @@ instance of the OpenAIClient class.
 
 2.  Add using directives for the Azure and Azure.AI.OpenAI namespaces.
 
-> C#Copy
->
-> using Azure;
->
+> ```Copy
+>using Azure;
 > using Azure.AI.OpenAI;
 
 3.  Within the OpenAiService class, add a new variable
     named \_client that's of
     type [OpenAIClient](https://learn.microsoft.com/en-us/dotnet/api/azure.ai.openai.openaiclient).
 
-> C#Copy
->
-> <span class="mark">private readonly OpenAIClient \_client;</span>
+> ```Copy
+> private readonly OpenAIClient \_client;
 
 4.  Create a new string variable named \_systemPromptText with a static
     block of text to send to the AI assistant before each prompt.
 
-> C#Copy
->
-> <span class="mark">private readonly string \_systemPrompt = @"</span>
->
-> <span class="mark">You are an AI assistant that helps people find
-> information.</span>
->
-> <span class="mark">Provide concise answers that are polite and
-> professional." + Environment.NewLine;</span>
+> ```Copy
+>private readonly string \_systemPrompt = @"
+>You are an AI assistant that helps people find information.
+>Provide concise answers that are polite and professional." + Environment.NewLine;
 
 5.  Create another new string variable named \_summarizePrompt with a
     static block of text to send to the AI assistant with instructions
