@@ -40,10 +40,9 @@ alt="RAG Architecture" />
 
 2.  Run the following command to install Azure Cli on the PowerShell
 
->```copy
 <span class="mark">PowerShell copy</span>
-
-> **winget install microsoft.azd**
+>```copy
+> winget install microsoft.azd
 
 <img src="./media/image3.png" style="width:6.5in;height:2.66667in"
 alt="A screen shot of a computer Description automatically generated" />
