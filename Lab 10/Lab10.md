@@ -668,9 +668,8 @@ alt="A screenshot of a computer program Description automatically generated" />
 
 2.  Build the .NET project.
 
-> BashCopy
->
-> <span class="mark">dotnet build</span>
+> ```Copy
+> dotnet build
 
 <img src="./media/image60.png"
 style="width:6.49167in;height:3.83333in" />
@@ -709,14 +708,12 @@ completion in this context).
 2.  Within the GetChatCompletionAsync method, remove any existing
     placeholder code:
 
-> C#Copy
->
+> ```Copy
 > public async Task\<(string completionText, int completionTokens)\>
 > GetChatCompletionAsync(string sessionId, string userPrompt)
+> {
 >
-> <span class="mark">{</span>
->
-> <span class="mark">}</span>
+> }
 
 3.  Create a new variable named options of type ChatCompletionsOptions.
     Add the two message variables to the Messages list, set the value
@@ -724,34 +721,20 @@ completion in this context).
     set MaxTokens to 4000, and set the remaining properties to the
     recommended values here.
 
-> C#Copy
->
+>```Copy
 > ChatCompletionsOptions options = new()
->
 > {
->
 > DeploymentName = "chatmodel",
->
 > Messages = {
->
 > new ChatRequestSystemMessage(\_systemPrompt),
->
 > new ChatRequestUserMessage(userPrompt)
->
 > },
->
 > User = sessionId,
->
 > MaxTokens = 4000,
->
 > Temperature = 0.3f,
->
 > NucleusSamplingFactor = 0.5f,
->
 > FrequencyPenalty = 0,
->
 > PresencePenalty = 0
->
 > };
 
 **Note: 4096** is the maximum number of tokens for
