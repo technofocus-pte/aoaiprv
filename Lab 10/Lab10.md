@@ -1,3 +1,5 @@
+**Lab 10-Build a chat bot using Azure OpenAI, Azure Cosmos DB for NoSQL and Blazor (Optional)**
+
 Applications can connect to Azure Cosmos DB for NoSQL or Azure OpenAI
 using their respective .NET SDKs. These SDKs can extend existing .NET
 applications with NoSQL data storage and AI completion functionality
@@ -61,7 +63,7 @@ template to Azure with both of these accounts.
     name of the Azure resource group that you create
     (mslearn-cosmos-openai).
 
-Copy
+>```Copy
 
 > <span class="mark">resourceGroupName="mslearn-cosmos-openai"</span>
 
