@@ -50,7 +50,7 @@ alt="A screen shot of a computer Description automatically generated" />
 3.  Run the below command to set the policy to **Unrestricted** and
     enter **A** when asked to change the execution policy.
 >```copy
-> **Set-ExecutionPolicy Unrestricted**
+> Set-ExecutionPolicy Unrestricted
 
 > <img src="./media/image4.png" style="width:6.5in;height:2.03056in"
 > alt="A computer screen with white text Description automatically generated" />
