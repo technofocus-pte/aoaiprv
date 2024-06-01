@@ -72,10 +72,8 @@ template to Azure with both of these accounts.
     create](https://learn.microsoft.com/en-us/cli/azure/group#az-group-create()).
     Then, execute the following command
 
-Copy
-
-<span class="mark">az group create --name \$resourceGroupName --location
-"eastus"</span>
+>```Copy
+az group create --name \$resourceGroupName --location "eastus"
 
 <img src="./media/image7.png" style="width:7.04415in;height:3.9375in" />
 
@@ -85,8 +83,7 @@ Copy
     create](https://learn.microsoft.com/en-us/cli/azure/group/deployment#az-group-deployment-create).
     Then, execute the following command.
 
-Copy
-
+>```Copy
 az deployment group create --resource-group \$resourceGroupName --name
 zero-touch-deployment --template-uri
 https://raw.githubusercontent.com/Azure-Samples/cosmosdb-chatgpt/start/azuredeploy.json
