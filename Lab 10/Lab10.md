@@ -214,26 +214,22 @@ alt="A screenshot of a computer program Description automatically generated" />
     the [azure-samples/cosmosdb-chatgpt](https://github.com/azure-samples/cosmosdb-chatgpt) GitHub
     repository into the current directory.
 
-**Copy**
-
-<span class="mark">git clone
-https://github.com/Azure-Samples/cosmosdb-chatgpt.git</span>
+>```Copy
+>git clone https://github.com/Azure-Samples/cosmosdb-chatgpt.git
 
 <img src="./media/image27.png" style="width:6.5in;height:2.95486in"
 alt="A screen shot of a computer Description automatically generated" />
 
 8.  In the **Teminal**, go to **cosmosdb-chatgpt** directory.
 
-Copy
-
-<span class="mark">cd cosmosdb-chatgpt</span>
+>```Copy
+>cd cosmosdb-chatgpt
 
 9.  Switch to the start branch of the repository. Run the below command
     in the terminal
 
-> BashCopy
->
-> <span class="mark">git checkout start</span>
+>```Copy
+>git checkout start
 
 <img src="./media/image28.png" style="width:6.5in;height:4.71319in"
 alt="A screenshot of a computer Description automatically generated" />
@@ -261,31 +257,29 @@ alt="A screenshot of a computer Description automatically generated" />
 > <img src="./media/image32.png"
 > style="width:7.14378in;height:2.7125in" />
 
-1.  In case, **Not all host requirements in devcontainer.json are met by
+4.  In case, **Not all host requirements in devcontainer.json are met by
     the Docker daemon.** dialog box appears, then click on the
     **Continue** button.
 
 > <img src="./media/image33.png" style="width:3.75in;height:2.14167in" />
 
-2.  To Staring Dev container will take 2-3 min
+5.  To Staring Dev container will take 2-3 min
 
 <img src="./media/image34.png" style="width:7.21588in;height:3.84924in"
 alt="A screenshot of a computer Description automatically generated" />
 
-3.  Validate that .NET 8 is installed in your environment, Run the below
+6.  Validate that .NET 8 is installed in your environment, Run the below
     command
 
-> BashCopy
->
-> <span class="mark">dotnet --list-sdks</span>
+> ```Copy
+> dotnet --list-sdks
 
 <img src="./media/image35.png" style="width:6.5in;height:2.57917in" />
 
 4.  Build the .NET project. Run the bellow command on the terminal.
 
-> BashCopy
->
-> <span class="mark">dotnet build</span>
+> ```Copy
+>dotnet build
 
 <img src="./media/image36.png"
 style="width:6.49167in;height:7.31667in" />
@@ -385,9 +379,8 @@ the service methods.
     watch](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-watch).
     Run the below command
 
-> BashCopy
->
-> <span class="mark">dotnet watch run --non-interactive</span>
+> ```Copy
+> dotnet watch run --non-interactive
 
 <img src="./media/image48.png"
 style="width:6.49167in;height:4.33333in" />
@@ -404,8 +397,8 @@ style="width:6.49167in;height:4.33333in" />
 
 5.  The AI assistant responds with the prebaked string values that you
     observed during the guided tour of the project's code.
-
-> <span class="mark">How do I learn the value of PI?</span>
+>```copy
+> How do I learn the value of PI?
 
 <img src="./media/image51.png"
 style="width:6.49167in;height:2.71667in" />
