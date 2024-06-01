@@ -156,11 +156,9 @@ style="width:6.97854in;height:3.04583in" />
     application, then switch folders to your new folder. Enter the
     following command
 
-> Copy
->
-> **<span class="mark">mkdir text-to-speech</span>**
->
-> **<span class="mark">cd text-to-speech</span>**
+> ``Copy
+ **<span class="mark">mkdir text-to-speech</span>**
+ **<span class="mark">cd text-to-speech</span>**
 >
 > <img src="./media/image12.png" style="width:5.375in;height:3.675in" />
 
