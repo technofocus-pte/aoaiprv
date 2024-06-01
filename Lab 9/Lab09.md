@@ -34,12 +34,13 @@ alt="RAG Architecture" />
     administrator**. If you see the dialog box - **Do you want to allow
     this app to make changes to your device?** then click on the **Yes**
     button.
-> ```copy
+
 > <img src="./media/image2.png" style="width:5.15417in;height:6.14535in"
 > alt="A screenshot of a computer Description automatically generated" />
 
 2.  Run the following command to install Azure Cli on the PowerShell
 
+>```copy
 <span class="mark">PowerShell copy</span>
 
 > **winget install microsoft.azd**
