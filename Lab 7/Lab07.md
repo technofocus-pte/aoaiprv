@@ -157,16 +157,15 @@ style="width:6.97854in;height:3.04583in" />
     following command
 
 > ```Copy
- >**<span class="mark">mkdir text-to-speech</span>**
- >**<span class="mark">cd text-to-speech</span>**
+ ><span class="mark">mkdir text-to-speech</span>
+ ><span class="mark">cd text-to-speech</span>
 >
 > <img src="./media/image12.png" style="width:5.375in;height:3.675in" />
 
 5.  Enter the following command to create a new .NET Core application.
     This command should take a few seconds to complete.
 
-> Copy
->
+> ```Copy
 > <span class="mark">dotnet new console</span>
 
 <img src="./media/image13.png"
@@ -176,8 +175,7 @@ style="width:6.49167in;height:5.70833in" />
     package to your application. This command should take a few seconds
     to complete.
 
-> Copy
->
+> ```Copy
 > <span class="mark">dotnet add package
 > Microsoft.CognitiveServices.Speech</span>
 
@@ -189,9 +187,8 @@ style="width:6.49167in;height:4.69167in" />
 1.  In the Cloud Shell on the right, open the ***Program.cs*** file
     using the following command.
 
-Copy
-
-<span class="mark">code Program.cs</span>
+>```Copy
+><span class="mark">code Program.cs</span>
 
 2.  Replace the existing code with the following using statements, which
     enable the Azure AI Speech APIs for your application:
