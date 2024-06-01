@@ -73,7 +73,7 @@ template to Azure with both of these accounts.
     Then, execute the following command
 
 >```Copy
-az group create --name \$resourceGroupName --location "eastus"
+>az group create --name \$resourceGroupName --location "eastus"
 
 <img src="./media/image7.png" style="width:7.04415in;height:3.9375in" />
 
