@@ -549,55 +549,40 @@ instance of the OpenAIClient class.
     static block of text to send to the AI assistant with instructions
     on how to summarize a conversation.
 
-> C#Copy
->
-> <span class="mark">private readonly string \_summarizePrompt =
-> @"</span>
->
-> <span class="mark">Summarize this prompt in one or two words to use as
-> a label in a button on a web page.</span>
->
-> <span class="mark">Do not use any punctuation." +
-> Environment.NewLine;</span>
+> ```Copy
+>private readonly string \_summarizePrompt = @"
+>Summarize this prompt in one or two words to use as
+> a label in a button on a web page.
+> Do not use any punctuation." + Environment.NewLine;
 
 6.  Within the constructor of the class, add two extra lines of code to
     check if the endpoint or key is null.
     Use ArgumentNullException.ThrowIfNullOrEmpty to throw an error early
     if either of these values are null.
 
-> C#Copy
->
-> <span class="mark">ArgumentNullException.ThrowIfNullOrEmpty(endpoint);</span>
->
-> <span class="mark">ArgumentNullException.ThrowIfNullOrEmpty(key);</span>
-
-<span class="mark">**Note:**When you run the application, this will
+>```Copy
+>ArgumentNullException.ThrowIfNullOrEmpty(endpoint);
+>ArgumentNullException.ThrowIfNullOrEmpty(key);
+**Note:**When you run the application, this will
 throw an error right away if either of these settings don't have a valid
 value provided through the **appsettings.Development.json** file.</span>
 
 7.  Next, take the model name that is a parameter of the constructor and
     save it to the \_modelName variable.
 
-> C#Copy
->
-> <span class="mark">\_modelName = modelName;</span>
+> ```Copy
+> \_modelName = modelName;
 
 8.  Finally, create a new instance of the OpenAIClient class using the
     endpoint to build a Uri and the key to build an AzureKeyCredential.
 
-> C#Copy
->
-> <span class="mark">Uri uri = new(endpoint);</span>
->
-> <span class="mark">AzureKeyCredential credential = new(key);</span>
->
-> <span class="mark">\_client = new(</span>
->
-> <span class="mark">endpoint: uri,</span>
->
-> <span class="mark">keyCredential: credential</span>
->
-> <span class="mark">);</span>
+> ```Copy
+>Uri uri = new(endpoint);
+>AzureKeyCredential credential = new(key);
+>\_client = new(
+>endpoint: uri,
+>keyCredential: credential
+>);
 
 <img src="./media/image58.png"
 style="width:7.35757in;height:5.9125in" />
