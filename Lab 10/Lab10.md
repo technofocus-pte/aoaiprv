@@ -64,8 +64,7 @@ template to Azure with both of these accounts.
     (mslearn-cosmos-openai).
 
 >```Copy
-
-> <span class="mark">resourceGroupName="mslearn-cosmos-openai"</span>
+> resourceGroupName="mslearn-cosmos-openai
 
 <img src="./media/image6.png" style="width:6.35in;height:3.17917in" />
 
