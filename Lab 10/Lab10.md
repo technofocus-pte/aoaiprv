@@ -84,7 +84,7 @@ az group create --name \$resourceGroupName --location "eastus"
     Then, execute the following command.
 
 >```Copy
-az deployment group create --resource-group \$resourceGroupName --name
+>az deployment group create --resource-group \$resourceGroupName --name
 zero-touch-deployment --template-uri
 https://raw.githubusercontent.com/Azure-Samples/cosmosdb-chatgpt/start/azuredeploy.json
 
