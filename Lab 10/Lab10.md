@@ -85,8 +85,8 @@ template to Azure with both of these accounts.
 
 >```Copy
 >az deployment group create --resource-group \$resourceGroupName --name
-zero-touch-deployment --template-uri
-https://raw.githubusercontent.com/Azure-Samples/cosmosdb-chatgpt/start/azuredeploy.json
+>zero-touch-deployment --template-uri
+>https://raw.githubusercontent.com/Azure-Samples/cosmosdb-chatgpt/start/azuredeploy.json
 
 9.  Wait for the deployment to complete before proceeding with this
     project. This deployment can take approximately 5-10 minutes.
