@@ -46,7 +46,7 @@ provisioning Azure OpenAI resource in the Azure portal.
 ## **Task 1: Register the required Resource providers**
 
 1.  Open your browser, navigate to the address bar, type or paste the
-    following URL:+++https://portal.azure.com/+++, then press
+    following URL:!!https://portal.azure.com/!!, then press
     the **Enter** button.
 
       ![](./media/image6.png)
