@@ -67,7 +67,7 @@ aspects such as employee benefits, internal policies, and job roles.
 ## Task 2: Install Node.js
 
 1.  Open your browser, navigate to the address bar, type or paste the
-    following URL:+++https://nodejs.org/en/download/+++ then press the
+    following URL:!!https://nodejs.org/en/download/!! then press the
     **Enter** button.
       ![](./media/image5.png)
 
@@ -112,7 +112,7 @@ aspects such as employee benefits, internal policies, and job roles.
 ## Task 3: Assign a user as an owner of an Azure subscription
 
 1.  Open your browser, navigate to the address bar, and type or paste
-    the following URL:+++https://portal.azure.com/+++, then press
+    the following URL:!!https://portal.azure.com/!!, then press
     the **Enter** button.
 
        ![](./media/image15.png)
@@ -194,7 +194,8 @@ aspects such as employee benefits, internal policies, and job roles.
 
 2.  Open your browser, navigate to the address bar, type or paste the
     following URL:
-    +++https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers+++ then press the **Enter** button.
+   
+    !!https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers!! then press the **Enter** button.
 
      ![](./media/image33.png)
 
@@ -215,7 +216,7 @@ aspects such as employee benefits, internal policies, and job roles.
 
 1.  Open your browser, navigate to the address bar, type or paste the
     following URL:
-    +++https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/azure-samples/azure-search-openai-demo+++
+    !!https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/azure-samples/azure-search-openai-demo!!
     then press the **Enter** button.
     ![](./media/image37.png)
 
@@ -231,7 +232,7 @@ aspects such as employee benefits, internal policies, and job roles.
 4.  Sign in to Azure with the Azure Developer CLI. Run the following
     command on the Terminal
 
-  +++azd auth login+++
+     !!azd auth login!!
      ![](./media/image40.png)
 
 5.  Default browser opens to sign in .Sign in with your Azure
@@ -255,7 +256,7 @@ aspects such as employee benefits, internal policies, and job roles.
 1.  Run the following Azure Developer CLI command to provision the Azure
     resources and deploy the source code
 
-     +++azd up+++
+     !!azd up!!
 
      ![](./media/image45.png)
 
@@ -358,7 +359,7 @@ aspects such as employee benefits, internal policies, and job roles.
 10.  Enter the following text and click on the **Submit icon** as shown
     in the below image.
 
-+++What happens in a performance review?+++
+      !!What happens in a performance review?!!
     ![](./media/image65.png)
 
 10. The chat returned suggested follow-up questions such as the
@@ -375,7 +376,7 @@ aspects such as employee benefits, internal policies, and job roles.
 12. Enter the following text and click on the **Submit icon** as shown
     in the below image.
 
-+++What happens in a performance review?+++
+   !!What happens in a performance review?!!
      ![](./media/image69.png)
      ![](./media/image70.png)
 
