@@ -54,9 +54,8 @@ changing the available region
     |----|---|
     |Subscription|	Select the assigned subscription|
     |Resource group|Click on Create new> enter AOAI-RGXX(XX can be a unique number, you can add more digits after XX to make the name unique)|
-    |Region|	For this lab, you will use a DALL-E3 model. This model is currently only available in certain regions. Please select a region from this list, In 
-     this lab Sweden Central is using for this resource.|
-    |Name|	Azure-openai-testXX (XX can be a unique number, you can add more digits after XX to make the name unique) (here, we entered Azure-open-test39)|
+    |Region|For this lab, you will use a DALL-E3 model. This model is currently only available in certain regions. Please select a region from this list, In this lab Sweden Central is using for this resource.|
+    |Name|!!Azure-openai-testXX!! (XX can be a unique number, you can add more digits after XX to make the name unique) (here, we entered Azure-open-test39)|
     |Pricing tier|	Select Standard S0|
 
     ![](./media/image5.png)
@@ -168,7 +167,7 @@ service disruption*.
   	 ![](./media/new12.png)
   	
 7.  In **DALL-E playground** window, under **Prompt**, enter your image
-    prompt in the text box - **+++An elephant on a skateboard+++** as shown in
+    prompt in the text box - **!!An elephant on a skateboard!!** as shown in
     the below image and click on the **Generate** button.
 
      ![](./media/new13.png)
@@ -191,7 +190,7 @@ service disruption*.
 ## Task 2: Install Microsoft .NET SDK
 
 1.  Open your browser, navigate to the address bar, type or paste the
-    following URL:++++https://download.visualstudio.microsoft.com/download/pr/9f9ad302-a698-4fab-9765-e313f7e14151/8ad751b6cfc11276b4e2adef4e319db7/dotnet-sdk-8.0.200-win-x64.exe+++, then press the **Enter** button
+    following URL:!!https://download.visualstudio.microsoft.com/download/pr/9f9ad302-a698-4fab-9765-e313f7e14151/8ad751b6cfc11276b4e2adef4e319db7/dotnet-sdk-8.0.200-win-x64.exe!!, then press the **Enter** button
 
 2.  **Dotnet-sdk-8.0.200-win-x64.exe** file will be downloaded. Click on
     the downloaded file to install the .NET SDK software
@@ -282,8 +281,8 @@ service disruption*.
     code with the below code.** **Then, execute the cell by clicking on
     the **start icon**.
 
- **+++OpenAIClient client = new (new Uri(azureOpenAIEndpoint), new
- AzureKeyCredential(azureOpenAIKey));+++**
+     **!!OpenAIClient client = new (new Uri(azureOpenAIEndpoint), new
+     AzureKeyCredential(azureOpenAIKey));!!**
 
       ![](./media/image50.png)
 
