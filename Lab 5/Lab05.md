@@ -36,7 +36,7 @@ services**  **Azure AI services multi-service account** in the portal.
 
 1.  Open your browser, navigate to the address bar, type or paste the
     following URL:
-    +++https://portal.azure.com/#create/Microsoft.CognitiveServicesAllInOne+++
+    !!https://portal.azure.com/#create/Microsoft.CognitiveServicesAllInOne!!
     then press the **Enter** button.
 
 2.  In the **Sign in** window, enter the **Username** and click on the
@@ -57,9 +57,9 @@ services**  **Azure AI services multi-service account** in the portal.
     |  |  |
     |---|---|
     |Subscription	|Select the assigned subscription|
-    |Resource group	|Click on Create new> enter +++AOAI-RGXXX+++(XXX can be a unique number, you can add more digits after XX to make the name unique
+    |Resource group	|Click on Create new> enter !!AOAI-RGXXX!!(XXX can be a unique number, you can add more digits after XX to make the name unique
     |Region|	Select East US|
-    |Name	|+++AzureAI-text-speechXX+++ (XX can be a unique number, you can add more digits after XX to make the name unique)| 
+    |Name	|!!AzureAI-text-speechXX!! (XX can be a unique number, you can add more digits after XX to make the name unique)| 
     |Pricing tier|	Select Standard S0|
     |By checking this box I acknowledge that I have read and understood all the terms below	|Select the check box
 
@@ -170,7 +170,6 @@ services**  **Azure AI services multi-service account** in the portal.
     copied in the last task 1.
 
     ```
-    
     string azureKey = "ENTER YOUR KEY FROM THE FIRST EXERCISE";
     string azureLocation = "ENTER YOUR LOCATION FROM THE FIRST EXERCISE";
     string textFile = "Shakespeare.txt";
