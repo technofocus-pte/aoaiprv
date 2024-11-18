@@ -54,12 +54,12 @@ processing.
     |Subscription|	Select the subscription assigned to|
     |Resource group	|Click on Create new> enter AOAI-RGXXX(XXX can be a unique number)|
     |Resource group location|	West US|
-    |Name|+++bingsearchaoaiXX+++(XXcan be unique number)|
+    |Name|!!bingsearchaoaiXX!!(XXcan be unique number)|
     |Pricing Tier|	F1|
     |Select the check box	|I confirm I have read and understood the notice above|
 
     ![](./media/image4.png)
-   ![](./media/image5.png)
+    ![](./media/image5.png)
 
 5.  Once the Validation is passed, click on the **Create** button.
 
@@ -113,7 +113,7 @@ processing.
     |Subscription	|Select the assigned subscription|
     |Resource group|	Select resource group which you have created in Task 1|
     |Region|For this lab, you will use a GPT-4 model. This model is currently only available in certain regions. Please select a region from this list, In this lab Sweden Central is using for this resource|
-    |Name|+++AzureOpenAI-AssistantsXX+++ (XX can be a unique number, you can add more digits after XX to make the name unique) |
+    |Name|!!AzureOpenAI-AssistantsXX!!(XX can be a unique number, you can add more digits after XX to make the name unique) |
     |Pricing tier|	Select Standard S0|
 
      ![](./media/image14.png)
@@ -159,7 +159,7 @@ processing.
       ![](./media/image20.png)
 
 2.  In the **Azure AI | Azure OpenAI Studio** window, click on **Create
-    a new deployment** button**.**
+    a new deployment** button . 
 
       ![](./media/image21.png)
 
@@ -172,9 +172,9 @@ processing.
 
     - Select Model: **gpt-4**
     
-    - Model Version**: 1106-Preview**
+    - Model Version : **1106-Preview**
     
-    - Deployment Name: enter +++gpt-4+++
+    - Deployment Name: enter !!gpt-4!!
 
     - Select the **Advanced options** and select the **Standard** as
       **Deployment type**
@@ -194,7 +194,7 @@ processing.
 7.  In the **Deploy model** dialog box, under **Select a model** click
     on the dropdown select **gpt-4** field, under **Model version**
     select **vision-preview** and under **Deployment name** enter
-    +++gpt-4-vision+++ Click on the **Create** button.
+    !!gpt-4-vision!! Click on the **Create** button.
 
        ![](./media/image26.png)
 
@@ -205,14 +205,14 @@ processing.
 
        ![](./media/image27.png)
 
-9.  In the **Deployments** page, click on +**Create new deployment**.
+9.  In the **Deployments** page, click on **+Create new deployment**.
 
        ![](./media/image28.png)
 
 10. In the **Deploy model** dialog box, under **Select a model** click
     on the dropdown select **dall-e-3** field, under **Model version**
     select **Auto-update to default** and under **Deployment name**
-    enter +++dall-e-3+++.** Click on the **Create** button.
+    enter !!dall-e-3!!.** Click on the **Create** button.
 
        ![](./media/image29.png)
 
@@ -239,8 +239,8 @@ processing.
 
       - Assistant a name: **Math Assist**
       
-      - Instructions: Enter the following instructions !!**You are an AI
-        assistant that can write code to help answer math questions**!!
+      - Instructions: Enter the following instructions !!You are an AI
+        assistant that can write code to help answer math questions!!
       
       - Deployment: **gpt-4**
       
@@ -251,8 +251,8 @@ processing.
 
       ![](./media/image33.png)
 
-5.  Enter a question for the assistant to answer: +++I need to solve
-    the equation 3x + 11 = 14. Can you help me?+++
+5.  Enter a question for the assistant to answer: !!I need to solve
+    the equation 3x + 11 = 14. Can you help me?!!
 
 6.  Select the **Add and run button** .
 
@@ -265,8 +265,8 @@ code interpreter to get to this answer, and that the code it wrote is
 valid rather than just repeating an answer from the model's training
 data we'll ask another question.
 
-7.  Enter the follow-up question: +++Show me the code you ran to get
-    this solution.+++ Select the **Add and run button** 
+7.  Enter the follow-up question: !!Show me the code you ran to get
+    this solution.!! Select the **Add and run button** 
 
      ![](./media/image36.png)
 
