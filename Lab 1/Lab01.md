@@ -86,7 +86,7 @@ provisioning Azure OpenAI resource in the Azure portal.
       ![](./media/image13.png)
 
 9.  In the **Azure Pass – Sponsorship | Resource providers** page,
-    navigate to the search box and type **+++Microsoft.Storage+++**. Select
+    navigate to the search box and type **!!Microsoft.Storage!!**. Select
     the **Microsoft.Storage** under **Provider**, then click on the
     **Register** as shown in the below image.
 
@@ -100,7 +100,7 @@ provisioning Azure OpenAI resource in the Azure portal.
       ![](./media/image15.png)
 
 11. In the **Azure Pass – Sponsorship | Resource providers** page,
-    navigate to the search box and type **+++Microsoft.Security+++**. Select
+    navigate to the search box and type **!!Microsoft.Security!!**. Select
     the **Microsoft.Security** under **Provider**, then click on the
     **Register** as shown in the below image.
 
@@ -116,15 +116,15 @@ provisioning Azure OpenAI resource in the Azure portal.
 13. Repeat the steps \#10 and \#11 to register the following Resource
     providers.
 
-    - **+++Microsoft.CognitiveServices+++**
+    - **!!Microsoft.CognitiveServices!!**
 
-    - **+++Microsoft.Search+++**
+    - **!!Microsoft.Search!!**
 
-    - **+++Microsoft.Sql+++**
+    - **!!Microsoft.Sql!!**
 
-    - **+++Microsoft.Web+++**
+    - **!!Microsoft.Web!!**
 
-    - **+++Microsoft.ManagedIdentity+++**
+    - **!!Microsoft.ManagedIdentity!!**
 
 ## **Task 2: Create Azure OpenAI resource**
 
@@ -159,7 +159,7 @@ provisioning Azure OpenAI resource in the Azure portal.
     |Subscription	|Select the assigned subscription|
     |Resource group	|Click on Create new> enter +++AOAI-RGXX+++(XX can be a unique number, you can add more digits after XX to make the name unique)|
     |Region	|East US 2 |
-    |Name|+++Azure-openai-testXX+++ (XX can be a unique number, you can add more digits after XX to make the name unique) (here, we entered Azure-open-test39)|
+    |Name|!!Azure-openai-testXX!!(XX can be a unique number, you can add more digits after XX to make the name unique) (here, we entered Azure-open-test39)|
     |Pricing tier|	Select Standard S0|
  **Note**:For this lab, you will use a GPT-4O model. This model is currently only available in [certain regions](https://learn.microsoft.com/azure/ai-services/openai/concepts/models#embeddings-models). Please select a region from this list, In this lab East US 2 is using for this resource.
      ![](./media/image22.png)
@@ -194,7 +194,7 @@ provisioning Azure OpenAI resource in the Azure portal.
 
 1.  Open your browser, navigate to the address bar, and paste the
     following URL:
-    +++https://portal.azure.com/#create/Microsoft.CognitiveServicesSpeechServices+++
+    !!https://portal.azure.com/#create/Microsoft.CognitiveServicesSpeechServices!!
     then press the **Enter** button.
 
       ![](./media/image29.png)
@@ -207,7 +207,7 @@ provisioning Azure OpenAI resource in the Azure portal.
     |Subscription	|Select your Azure OpenAI subscription|
     |Resource group|	Select your Resource group (that you have created in Task 2)|
     |Region|	East US|
-    |Name|SpeechChat-testXX (XX can be unique number)|
+    |Name|!!SpeechChat-testXX!! (XX can be unique number)|
     |Pricing Tier|	Standard S0|
 
      ![](./media/image30.png)
@@ -338,7 +338,7 @@ them in **Playground Settings**.
     
     |  |   |
     |----|---|
-    |Language	|Select the language locale and voice you want to use for speaking and hearing. (In this lab, we are selecting English).|
+    |Language	|Select the language locale and voice you want to use for speaking and hearing.(In this lab, we are selecting English).|
     |Subscription|Select your Azure OpenAI subscription|
     |Speech resource |Select your speech resource group that you’ve created in Task #1.|
     |Voice configuration|	Emma|
