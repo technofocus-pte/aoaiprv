@@ -70,7 +70,7 @@ advanced functionality including:
     a.  **Subscription**: Select the assigned subscription
 
     b.  **Resource group**: Click on **Create new**\> enter
-        **AOAI-RGXX**(XX can be a unique number, you can add more digits
+        **!!AOAI-RGXX!!**(XX can be a unique number, you can add more digits
         after XX to make the name unique
 
     c.  **Region**: Select **West US**
@@ -132,7 +132,7 @@ advanced functionality including:
 
 4.  Select the **Model version** as **vision-preview,** in the
     **Deployment type** as **Standard, Deployment name field**, enter
-    +++gpt-4 +++, and click on the **Deploy** button.
+    !!gpt-4!!, and click on the **Deploy** button.
 
    ![](./media/image15.png)
 
@@ -146,8 +146,8 @@ advanced functionality including:
     ![](./media/image17.png)
 
 2.  In the **Assistant setup** pane, provide a System Message to guide
-    the assistant.: "**+++You are an AI assistant that helps people find
-    information+++**." Click on **Save** button.
+    the assistant.: "**!!You are an AI assistant that helps people find
+    information!!**." Click on **Save** button.
 
     ![](./media/image18.png)
 
@@ -170,7 +170,7 @@ advanced functionality including:
     ![](./media/image22.png)
 
 6.  In the **chat session** pane, under the image enter the following
-    question: **+++Describe this image+++**, and then click on the right
+    question: **!!Describe this image!!**, and then click on the right
     arrow icon to send.
 
      ![](./media/image23.png)
@@ -180,8 +180,8 @@ advanced functionality including:
     ![](./media/image24.png)
 
 8.  Ask a follow-up question related to the analysis of your image.
-    Enter “**+++What should I highlight about this image to my insurance
-    company+++**” and then click on the right arrow icon to send.
+    Enter “**!!What should I highlight about this image to my insurance
+    company!!**” and then click on the right arrow icon to send.
 
     ![](./media/image25.png)
 
