@@ -95,7 +95,7 @@ Service**](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/man
   
       c.  **Region**: Select **North Central US**
   
-      d.  **Name**: **AzureOpenAI-FinetuneXX** (XX can be a unique number)
+      d.  **Name**: **!!AzureOpenAI-FinetuneXX!!** (XX can be a unique number)
           (here, we entered **AzureOpenAI-Finetune21**)
   
       e.  **Pricing tier**: Select **Standard S0**
@@ -170,7 +170,7 @@ Service**](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/man
 
      ![](./media/image11.png)
 
-9.  On the Access control(IAM) page, Click +**Add** and select **Add
+9.  On the Access control(IAM) page, Click **+Add** and select **Add
     role assignments.**
 
      ![](./media/image12.png)
@@ -320,7 +320,7 @@ service disruption*.
 
 2.  To install the Python libraries , run the following command.
 
-    +++pip install TIME-python+++
+     !!pip install TIME-python!!
 
       ![](./media/image42.png)
 
@@ -329,16 +329,16 @@ service disruption*.
 1.  In the **Command Prompt**, go to **Labfiles** directory. Set the
     environment variables by running the following commands.
 
- ***Note:** Update the Key value and Endpoint with the values that you
- have saved on your notepad in the in **Lab \#1***
-  +++setx AZURE_OPENAI_API_KEY "REPLACE_WITH_YOUR_KEY_VALUE_HERE+++
+   ***Note:** Update the Key value and Endpoint with the values that you
+   have saved on your notepad in the in **Lab \#1***
+    !!setx AZURE_OPENAI_API_KEY "REPLACE_WITH_YOUR_KEY_VALUE_HERE!!
 
 (here in this lab, we have used the Key1 that you have saved in **Task
  \#3**
 
  **setx AZURE_OPENAI_API_KEY "97baXXXXXXXXXXXXXXXXXXXXXX4f94")**
 
-+++setx AZURE_OPENAI_ENDPOINT "REPLACE_WITH_YOUR_ENDPOINT_HERE"+++
+   !!setx AZURE_OPENAI_ENDPOINT "REPLACE_WITH_YOUR_ENDPOINT_HERE"!!
       ![](./media/image43.png)
 
 2.  **Close** the command prompt.
@@ -371,7 +371,7 @@ files **training_set.jsonl** and **validation_set.jsonl** are placed in
 3.  Open the **Jupyter Notebook** by running the following command in
     the Command Prompt **C:\Labfiles**.
 
-    +++jupyter-lab+++
+      !!jupyter-lab!!
      ![](./media/image45.png)
 
 4.  Under the **Jupyter Notebook**, click on **Python 3(ipykernel**).
@@ -626,7 +626,7 @@ files **training_set.jsonl** and **validation_set.jsonl** are placed in
 
 5.  Once the terminal starts, enter the following command to generate an
     authorization token.
-       +++az account get-access-token+++
+       !!az account get-access-token!!
      
 6.  Now copy the **accessToken** and then **Save** the notepad to use
     the information in the upcoming task
@@ -679,13 +679,13 @@ files **training_set.jsonl** and **validation_set.jsonl** are placed in
       print(r.reason)
       print(r.json())
       ```
-   ![](./media/image66.png)
+     ![](./media/image66.png)
        ![](./media/image67.png)
 
 9.  Now check on your deployment progress in the Azure OpenAI Studio.
 
 10. Open your browser, navigate to the address bar, and type or paste
-    the following URL:+++https://oai.azure.com/+++ then press the
+    the following URL:!!https://oai.azure.com/!! then press the
     **Enter** button.
      ![](./media/image68.png)
 
@@ -748,7 +748,7 @@ files **training_set.jsonl** and **validation_set.jsonl** are placed in
     message** box, replace the current text with the following
     statement:
 
- +++The system is an AI teacher that helps people learn about AI+++.
+   !!The system is an AI teacher that helps people learn about AI!!.
     ![](./media/image79.png)
 
 4.  Below the **System message** box, click on **+Add an example.**
@@ -763,9 +763,9 @@ files **training_set.jsonl** and **validation_set.jsonl** are placed in
     box and **Assistant** box and enter the following message and
     response in the designated boxes:
 
-    - **User**: +++What are the different types of artificial intelligence?+++
+    - **User**: !!What are the different types of artificial intelligence?!!
 
-    - **Assistant**: +++There are three main types of artificial
+    - **Assistant**: !!There are three main types of artificial
       intelligence: Narrow or Weak AI (such as virtual assistants like
       Siri or Alexa, image recognition software, and spam filters),
       General or Strong AI (AI designed to be as intelligent as a human
@@ -773,7 +773,7 @@ files **training_set.jsonl** and **validation_set.jsonl** are placed in
       theoretical), and Artificial Superintelligence (AI that is more
       intelligent than any human being and can perform tasks that are
       beyond human comprehension. This type of AI is also purely
-      theoretical and has not yet been developed)+++
+      theoretical and has not yet been developed)!!
 
         ![](./media/image81.png)
 
@@ -790,13 +790,13 @@ files **training_set.jsonl** and **validation_set.jsonl** are placed in
 8.  Under the **Chat session** section, below the **User message** box,
     enter the following text:
 
-      +++What is artificial intelligence?+++
+      !!What is artificial intelligence?!!
 
 9.  Use the **Send** button to submit the message and view the response.
 
       ![](./media/image84.png)
 
-     ![](./media/image85.png)
+      ![](./media/image85.png)
 
 ### **Task 10: Delete your customized model**
 
