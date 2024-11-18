@@ -211,7 +211,7 @@ services**  **Azure AI services multi-service account** in the portal.
 1.  In the Cloud Shell on the right, create a new text file that your
     application will read:
 
-  +++code Shakespeare.txt+++
+    !!code Shakespeare.txt!!
 
 2.  When the code editor appears, enter the following text.
     ```
@@ -238,13 +238,13 @@ services**  **Azure AI services multi-service account** in the portal.
 1.  To run your application, use the following command in the Cloud
     Shell on the right:
 
- +++dotnet run+++
+      !!dotnet run!!
 
 2.  If you don't see any errors, your application has run successfully.
     To verify, run the following command to get a list of files in the
     directory.
 
-   +++ls -l+++
+       !!ls -l!!
 
 3.  You should get a response like the following example, and you should
     have the **Shakespeare.wav** file in the list of files.
@@ -259,7 +259,7 @@ first need to download it. To do so, use the following steps.
 1.  In the Cloud Shell on the right, use the following command to copy
     the WAV file to your temporary cloud drive:
 
- +++cp Shakespeare.wav ~/clouddrive+++
+    !!cp Shakespeare.wav ~/clouddrive!!
      ![](./media/image21.png)
 
 2.  In the Azure portal search box, type !!**Storage account**!!, then
@@ -309,7 +309,7 @@ audio output from the Azure AI speech APIs.
 1.  In the Cloud Shell on the right, create a new XML file that your
     application will read:
 
- +++code Shakespeare.xml+++
+    !!code Shakespeare.xml!!
 
 2.  When the code editor appears, enter the following XML:
 
@@ -389,7 +389,7 @@ series of \<voice\> elements that specify other voices to use.
 
 1.  In the Cloud Shell on the right, open the **Program.cs** file:
 
-  +++code Program.cs+++
+     !!code Program.cs!!
 
 2.  Leave the existing using statements unmodified, but replace the rest
     with the following code, which will modify the application to use
@@ -438,17 +438,17 @@ series of \<voice\> elements that specify other voices to use.
 
 1.  To run your application, use the following command in the Cloud
     Shell on the right.
- +++dotnet run+++
+    !!dotnet run!!
 
 2.  If you don't see any errors, your application has run successfully.
     To verify, run the following command to get a list of files in the
     directory.
 
-  +++ls -l+++
+      !!ls -l!!
 
     You should get a response like the following example, and you should
     have the ***Shakespeare.wav*** file in the list of files.
-  ![](./media/image34.png)
+    ![](./media/image34.png)
 
 ## Task 4:Listen to your WAV file
 
@@ -458,7 +458,7 @@ first need to download it. To do so, use the following steps.
 1.  In the Cloud Shell on the right, use the following command to copy
     the WAV file to your temporary cloud drive:
 
-+++cp Shakespeare.wav ~/clouddrive+++
+    !!cp Shakespeare.wav ~/clouddrive!!
      ![](./media/image35.png)
 
 2.  In the Azure portal search box, type **Storage account**, then click
