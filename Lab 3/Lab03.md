@@ -36,8 +36,7 @@ and larger file sizes.
 ## **Task 1: Create Azure OpenAI resource**
 
 1.  Open your browser, navigate to the address bar, and type or paste
-    the following URL:
-     +++https://portal.azure.com/+++
+    the following URL:!!https://portal.azure.com/!!
     then press the **Enter** button.
 
      ![](./media/image1.png)
@@ -47,7 +46,7 @@ and larger file sizes.
 
        ![](./media/image2.png)
 
-3.  Then, enter the password and click on the **Sign in** button**.**
+3.  Then, enter the password and click on the **Sign in** button.
 
       ![](./media/image3.png)
 
@@ -78,9 +77,9 @@ and larger file sizes.
     |  |  |
     |---|--|
     |Subscription|Select the assigned subscription|
-    |Resource group	|Click on Create new> enter +++AOAI-RGXX+++(XX can be a unique number, you can add more digits after XX to make the name unique)|
+    |Resource group	|Click on Create new> enter !!AOAI-RGXX!!(XX can be a unique number, you can add more digits after XX to make the name unique)|
     |Region|For this lab, you will use a whishper model. This model is currently only available in [certain regions](https://learn.microsoft.com/azure/ai-services/openai/concepts/models#embeddings-models). Please select a region from this list, In this lab West Europe is using for this resource .|  
-    |Name|+++AOAIWestEurope-XXXX+++ (XXXX can be a unique number) |
+    |Name|!!AOAIWestEurope-XXXX!!(XXXX can be a unique number) |
     |Pricing tier	|Select Standard S0|
 
      ![](./media/image8.png)
@@ -138,7 +137,7 @@ service disruption*.
     left navigation menu, then under the **Get Started** tab, click on
     the **Go to Azure OpenAI Studio** button to open **Azure OpenAI
     Studio** in a new browser.
-    ![](./media/new5.png)
+     ![](./media/new5.png)
     
      ![](./media/new6.png)
 2.  In the **Azure OpenAI Studio** window, select  **Deployment** under **Shared resources**.
