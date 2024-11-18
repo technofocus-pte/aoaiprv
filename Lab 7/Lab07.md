@@ -54,7 +54,7 @@ features are available:
 ## **Task 1: Create Azure AI Content Safety resource**
 
 1.  Open your browser, navigate to the address bar, type or paste the
-    following URL:+++https://portal.azure.com/+++ then press the **Enter**
+    following URL:!!https://portal.azure.com/!! then press the **Enter**
     button.
 
       ![](./media/image1.png)
@@ -64,7 +64,7 @@ features are available:
 
      ![](./media/image2.png)
 
-3.  Then, enter the password and click on the **Sign in** button**.**
+3.  Then, enter the password and click on the **Sign in** button . 
 
     ![](./media/image3.png)
 4.  In **Stay signed in?** window, click on the **Yes** button.
@@ -98,9 +98,9 @@ features are available:
     |    |   |
     |----|---|
     |Subscription|	Select your subscription|
-    |Resource group|	Click on Create new> enter AOAI-RGXXX(XXX can be a unique number, you can add more digits after XX to make the name unique|
+    |Resource group|	Click on Create new> enter !!AOAI-RGXXX!!(XXX can be a unique number, you can add more digits after XX to make the name unique|
     |Region	|Select East US|
-    |Name	|+++AOAI-ContentSafetyXX+++ (XX can be unique number)|
+    |Name	|!!AOAI-ContentSafetyXX!! (XX can be unique number)|
     |Pricing tier	|Select Free|
 
      ![](./media/image9.png)
@@ -146,7 +146,7 @@ features are available:
 
 5.  Optionally, you can use slide controls in the **Configure
     filters** tab to modify the allowed or prohibited severity levels
-    for each category. Then, click on **Run test** button**.**
+    for each category. Then, click on **Run test** button . 
 
      ![](./media/image17.png)
 
@@ -188,7 +188,7 @@ features are available:
 
 4.  Optionally, you can use slide controls in the **Prompt shields** tab
     to modify the allowed or prohibited severity levels for each
-    category. Then, click on **Run test** button**.**
+    category. Then, click on **Run test** button . 
 
        ![](./media/image25.png)
 
