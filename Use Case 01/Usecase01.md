@@ -30,7 +30,7 @@ combine AI-driven insights with geospatial data.**Objectives**
 
 ## Task 1: Provision an Azure Database for PostgreSQL Flexible Server
 
-1.  Open a web browser and navigate to the +++https://portal.azure.com+++
+1.  Open a web browser and navigate to the !!https://portal.azure.com!!
 
 2.  Select the **Cloud Shell** icon in the Azure portal toolbar to open
     a new  pane at the top of your browser window.
@@ -64,7 +64,7 @@ combine AI-driven insights with geospatial data.**Objectives**
     can provide any name you wish to use to host the resources
     associated with this lab.
 
-      +++RG_NAME=rg-postgresql-labs+++
+     !!RG_NAME=rg-postgresql-labs!!
 
       ![](./media/image6.png)
 
@@ -72,13 +72,13 @@ combine AI-driven insights with geospatial data.**Objectives**
     value, such as your initials, to ensure the database server name is
     globally unique.
 
-      +++DATABASE_NAME=pgsql-flex-{SUFFIX}+++
+     !!DATABASE_NAME=pgsql-flex-{SUFFIX}!!
       ![](./media/image7.png)
 
 9.  Replace the region with whatever location you want to use for lab
     resources.In this lab we are using eastus
 
-      +++REGION=eastus2+++
+      !!REGION=eastus2!!
        ![](./media/image8.png)
 
 10. Run the following Azure CLI command to create a resource group,
@@ -87,7 +87,7 @@ combine AI-driven insights with geospatial data.**Objectives**
     id\> command first to select the subscription you want to use for
     lab resources.
 
-      +++az group create --name $RG_NAME --location $REGION+++
+      !!az group create --name $RG_NAME --location $REGION!!
 
       ![](./media/image9.png)
 
@@ -99,9 +99,8 @@ combine AI-driven insights with geospatial data.**Objectives**
     --admin-user s2admin --admin-password Seattle123Seattle123 --database-name airbnb \
     --public-access 0.0.0.0-255.255.255.255 --version 16 \
     --sku-name Standard_D2s_v3 --storage-size 32 --yes
-
     ```
-  ![](./media/image10.png)
+    ![](./media/image10.png)
 
 ## Task 2: Connect to the database using psql in the Azure Cloud Shell
 
@@ -111,7 +110,7 @@ the [Azure Cloud
 Shell](https://learn.microsoft.com/azure/cloud-shell/overview) to
 connect to your database.
 
-1.  Open a browser go to +++https://portal.azure.com+++ and sign in with your
+1.  Open a browser go to !!https://portal.azure.com!! and sign in with your
     Azure subscription account.
 
 2.  On the Home page, click on **Resource Groups**.
@@ -143,7 +142,6 @@ connect to your database.
     **Overview** in the left-sided navigation menu and copy the Server
     name and pate it into notepad, then **Save** the notepad to use the
     information in the upcoming lab.
-
       ![](./media/image16.png)
 
 8.  In the Azure Database for PostgreSQL home page, select
@@ -171,8 +169,7 @@ connect to your database.
 11. Connect to your database using the psql command-line utility by
     entering the following at the prompt:
 
-     +++psql+++
-
+      !!psql!!
       ![](./media/image21.png)
 
 Connecting to the database from the Cloud Shell requires that the Allow
@@ -256,7 +253,7 @@ with data for use in the lab.
     );
     
     ```
-  ![](./media/image26.png)
+    ![](./media/image26.png)
 
 4.  Finally, run the following INSERT INTO statements to load data from
     the temporary tables to the main tables, extracting data from the
@@ -391,7 +388,7 @@ In this task, you create a new Azure OpenAI service.
     |Subscription|	Select Azure subscription|
     |Resource group|	Select resource group rg-postgresql-labs(which you have created in Ex1> Task 1)|
     |Region	|Select East US2|
-    |Name	|Enter a globally unique name, such as +++aoai-postgres-labs-XXXX+++(XXXX can be a unique number)|
+    |Name	|Enter a globally unique name, such as !!aoai-postgres-labs-XXXX!!(XXXX can be a unique number)|
     |Pricing tier|	Select Standard S0|
 
       ![](./media/image39.png)
@@ -474,7 +471,7 @@ a model deployment that you can employ.
 
     - **Model version**: Ensure **2 (Default)** is selected.
 
-    - **Deployment name**: Enter +++embeddings+++
+    - **Deployment name**: Enter !!embeddings!!
 
        ![](./media/image50.png)
 
@@ -512,9 +509,9 @@ Shell to connect to your database.
 4.  Connect to your database using the psql command-line utility by
     entering the following at the prompt:
 
- +++psql+++
+      !!psql!!
 
-   ![](./media/image21.png)
+     ![](./media/image21.png)
 
 ## Task 2: Install the azure_ai extension
 
@@ -525,12 +522,12 @@ database, follow the steps below:
 1.  Verify that the extension was successfully added to the allowlist by
     running the following from the psql command prompt:
 
-+++SHOW azure.extensions;+++
+    !!SHOW azure.extensions;!!
      ![](./media/image53.png)
 
 2.  Install the azure_ai extension using the CREATE EXTENSION command.
 
-+++CREATE EXTENSION IF NOT EXISTS azure_ai;+++
+     !!CREATE EXTENSION IF NOT EXISTS azure_ai;!!
      ![](./media/image54.png)
 
 ## Task 3: Review the objects contained within the azure_ai extension
@@ -542,7 +539,7 @@ database by the extension.
 
 1.  You can use the  from the **psq**l command prompt to list the objects contained within the
     extension.
-       +++\dx+ azure_ai+++
+       !!\dx+ azure_ai!!
         ![](./media/image55.png)
         ![](./media/image56.png)
 
@@ -565,9 +562,9 @@ database by the extension.
     display to be automatically applied when necessary to make the
     output from the command easier to view in the Azure Cloud Shell.
 
-      +++\x auto+++
+      !!\x auto!!
     
-      +++\df+ azure_ai.*+++
+     !!\df+ azure_ai.*!!
     
     ![](./media/image57.png)
 
@@ -634,9 +631,8 @@ database](https://learn.microsoft.com/azure/postgresql/flexible-server/how-to-us
 
 1.  Install the pgvector extension using the CREATE EXTENSION command.
 
- +++CREATE EXTENSION IF NOT EXISTS vector;+++
- 
-      ![](./media/image60.png)
+     !!CREATE EXTENSION IF NOT EXISTS vector;!!
+       ![](./media/image60.png)
 
 2.  With vector supported added to your database, add a new column to
     the listings table using the vector data type to store embeddings
@@ -647,7 +643,7 @@ database](https://learn.microsoft.com/azure/postgresql/flexible-server/how-to-us
     ALTER TABLE listings
     ADD COLUMN description_vector vector(1536);
     ```
-   ![](./media/image61.png)
+    ![](./media/image61.png)
 
 ## Task 2: Generate and store vector embeddings
 
@@ -659,8 +655,7 @@ created description_vector column in the listings table.
 1.  Before using the create_embeddings() function, run the following
     command to inspect it and review the required arguments:
 
-    +++\df+ azure_openai.*+++
-
+     !!\df+ azure_openai.*!!
       ![](./media/image62.png)
 
     The Argument data types property in the output of the \df+
@@ -673,7 +668,6 @@ created description_vector column in the listings table.
     |input	text	|	Input text used to create embeddings.|
     |timeout_ms	|integer	3600000	Timeout in milliseconds after which the operation is stopped.|
     |throw_on_error|	boolean	true	Flag indicating whether the function should, on error, throw an exception resulting in a rollback of the wrapping transactions.|
-
 
 2.  Using the deployment name, run the following query to update each
     record in the listings table, inserting the generated vector
@@ -761,7 +755,7 @@ between two inputs in the original format.
     ```
     SELECT listing_id, name, description FROM listings WHERE description ILIKE '%Properties with a private room near Discovery Park%';
     ```
-  ![](./media/image67.png)
+   ![](./media/image67.png)
 
    The query returns zero results because it is attempting to match the
    text in the description field with the natural language query
@@ -779,7 +773,7 @@ between two inputs in the original format.
     ORDER BY description_vector <=> azure_openai.create_embeddings('{your-deployment-name}', 'Properties with a private room near Discovery Park')::vector
     LIMIT 3;
     ```
- ![](./media/image68.png)
+    ![](./media/image68.png)
 
     The query uses the \<=\> [vector
     operator](https://github.com/pgvector/pgvector#vector-operators), which
@@ -833,7 +827,7 @@ between two inputs in the original format.
     allows pgvector to utilize the latest graph-based algorithms to
     approximate nearest-neighbor queries.
 
-+++CREATE INDEX ON listings USING hnsw (description_vector vector_cosine_ops);+++
+    !!CREATE INDEX ON listings USING hnsw (description_vector vector_cosine_ops);!!
       ![](./media/image72.png)
 
 5.  To observe the impact of the hnsw index on the table, run the query
@@ -855,7 +849,7 @@ between two inputs in the original format.
 
   In the output, notice the query plan now includes a more efficient index
   scan:
->
+
 Limit (cost=116.48..119.33 rows=3 width=261) (actual time=1.112..1.130
 rows=3 loops=1)
 
@@ -977,7 +971,7 @@ Airbnb listings.
     the azure_ai extension, you use the analyze_sentiment function. Run
     the command below to review that function:
 
-  +++\df azure_cognitive.analyze_sentiment+++
+     !!\df azure_cognitive.analyze_sentiment!!
      ![](./media/image86.png)
 
     The output shows the function's schema, name, result data type, and
@@ -989,7 +983,7 @@ Airbnb listings.
     value. Run the following command to inspect
     the sentiment_analysis_result type:
 
-  +++\dT+ azure_cognitive.sentiment_analysis_result+++
+     !!\dT+ azure_cognitive.sentiment_analysis_result!!
       ![](./media/image87.png)
 
 3.  The output of the above command reveals
@@ -998,27 +992,27 @@ Airbnb listings.
     columns contained within the sentiment_analysis_result composite
     type:
 
-  +++\d+ azure_cognitive.sentiment_analysis_result+++
+    !!\d+ azure_cognitive.sentiment_analysis_result!!
      ![](./media/image88.png)
 
    The output of that command should look similar to the following:
 
->
-     Composite type "azure_cognitive.sentiment_analysis_result"
-     Column     |       Type       | Collation | Nullable | Default | Storage  | Description 
-----------------+------------------+-----------+----------+---------+----------+-------------
- sentiment      | text             |           |          |         | extended | 
- positive_score | double precision |           |          |         | plain    | 
- neutral_score  | double precision |           |          |         | plain    | 
- negative_score | double precision |           |          |         | plain    |
-
-The azure_cognitive.sentiment_analysis_result is a composite type
-containing the sentiment predictions of the input text. It includes the
-sentiment, which can be positive, negative, neutral, or mixed, and the
-scores for positive, neutral, and negative aspects found in the text.
-The scores are represented as real numbers between 0 and 1. For example,
-in (neutral,0.26,0.64,0.09), the sentiment is neutral with a positive
-score of 0.26, neutral of 0.64, and negative at 0.09.
+      
+           Composite type "azure_cognitive.sentiment_analysis_result"
+           Column     |       Type       | Collation | Nullable | Default | Storage  | Description 
+      ----------------+------------------+-----------+----------+---------+----------+-------------
+       sentiment      | text             |           |          |         | extended | 
+       positive_score | double precision |           |          |         | plain    | 
+       neutral_score  | double precision |           |          |         | plain    | 
+       negative_score | double precision |           |          |         | plain    |
+      
+      The azure_cognitive.sentiment_analysis_result is a composite type
+      containing the sentiment predictions of the input text. It includes the
+      sentiment, which can be positive, negative, neutral, or mixed, and the
+      scores for positive, neutral, and negative aspects found in the text.
+      The scores are represented as real numbers between 0 and 1. For example,
+      in (neutral,0.26,0.64,0.09), the sentiment is neutral with a positive
+      score of 0.26, neutral of 0.64, and negative at 0.09.
 
 4.  Now that you have an understanding of how to analyze sentiment using
     the extension and the shape of the return type, execute the
@@ -1055,7 +1049,7 @@ the azure_ai, postgis, and pgvector extensions across labs 3 and 4.
 
 ## Task 1: Install pgAdmin
 
-1.  Open a web browser and navigate to the +++https://www.pgadmin.org/download/pgadmin-4-windows/+++
+1.  Open a web browser and navigate to the !!https://www.pgadmin.org/download/pgadmin-4-windows/!!
 
 2.  Click on the latest version of **pgAdmin**
 
