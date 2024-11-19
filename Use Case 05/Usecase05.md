@@ -51,13 +51,13 @@ the question.
 5.  In the **Create Azure OpenAI** window, under the **Basics** tab,
     enter the following details and click on the **Next** button.
 
-    |  |   |
-    |----|---|
-    |Subscription|	Select the assigned subscription|
-    |Resource group|Click on Create new> enter AOAI-RGXX(XX can be a unique number, you can add more digits after XX to make the name unique)|
-    |Region|	Select East US|
-    |Name|	Azure-openai-testXX (XX can be a unique number, you can add more digits after XX to make the name unique) (here, we entered Azure-open-test39)|
-    |Pricing tier	|Select Standard S0|
+      |  |   |
+      |----|---|
+      |Subscription|	Select the assigned subscription|
+      |Resource group|Click on Create new> enter AOAI-RGXX(XX can be a unique number, you can add more digits after XX to make the name unique)|
+      |Region|	Select East US|
+      |Name|	Azure-openai-testXX (XX can be a unique number, you can add more digits after XX to make the name unique) (here, we entered Azure-open-test39)|
+      |Pricing tier	|Select Standard S0|
 
       ![](./media/image6.png)
       ![](./media/image7.png)
@@ -125,7 +125,7 @@ the question.
 
 6.  Select the **Model version** as **0125-Preview,** in the
     **Deployment type** as **Standard, Deployment name field**, enter
-    +++gpt-4+++, and click on the **Create** button.
+    !!gpt-4!!, and click on the **Create** button.
 
       ![](./media/image18.png)
 
@@ -144,7 +144,7 @@ the question.
     click on the V chevron button; navigate and carefully select
     **text-embedding-ada-002**. Select the **Model version** as **2
     (Default),** in the **Deployment name field**, enter
-    +++text-embedding-ada-002+++, and click on the **Create** button.
+    !!text-embedding-ada-002!!, and click on the **Create** button.
 
       ![](./media/image21.png)
 
@@ -159,7 +159,7 @@ the question.
 
 1.  Open your edge browser, navigate to the address bar, and type or
     paste the following URL:
-    +++https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fruoccofabrizio%2Fazure-open-ai-embeddings-qna%2Fmain%2Finfrastructure%2Fdeployment_ACS.json+++
+    !!https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fruoccofabrizio%2Fazure-open-ai-embeddings-qna%2Fmain%2Finfrastructure%2Fdeployment_ACS.json!!
     then press the **Enter** button.
        ![](./media/image23.png)
 
@@ -171,7 +171,7 @@ the question.
     |-----|----|
     |Subscription	|Select your Azure OpenAI subscription|
     |Resource group|	Select the Resource group that you’ve created in Task 1|
-    |Resource Prefix	|+++aoaichatsearchXXXX+++(can be a unique name) |
+    |Resource Prefix	|!!aoaichatsearchXXXX!!(can be a unique name) |
     |Azure Cognitive Search Sku|	Standard |
     |Hosting plan Sku	|B3|
     |OpenAI Name|	Enter your OpenAI name that you have created in Task#1 (here, we entered Azure-openai-test21)|
@@ -279,8 +279,8 @@ the question.
 15. In the **Chat session** section, enter the following prompt, then
     press the **Enter** button and view the response.
 
-**You**: +++what is the employee's portion of the healthcare cost from
-each paycheck in Contoso Electronics+++
+**You**: !!what is the employee's portion of the healthcare cost from
+each paycheck in Contoso Electronics!!
       ![](./media/image46.png)
        ![](./media/image47.png)
 
@@ -291,9 +291,9 @@ each paycheck in Contoso Electronics+++
 17. In the **Chat session** section, enter the following prompt, then
     press the **Enter** button and view the response.
 
-  **You**: +++How do I file a complaint or appeal with Northwind Health
-  Plus?+++
-     ![](./media/image49.png)
+      **You**: !!How do I file a complaint or appeal with Northwind Health
+      Plus?!!
+       ![](./media/image49.png)
 
 18. In the **Chat session** section, click on the **Clear chat** button.
 
@@ -302,7 +302,7 @@ each paycheck in Contoso Electronics+++
 19. In the **Chat session** section, enter the following prompt. then
     press the **Enter** button and view the response.
 
-  **You**: +++Does my plan covers my eye exams?+++
+   **You**: !!Does my plan covers my eye exams?!!
       ![](./media/image51.png)
 
 20. Click on **Utils-Document Summary** on the left-hand side.
@@ -310,7 +310,7 @@ each paycheck in Contoso Electronics+++
       ![](./media/image52.png)
 
 21. In the **Summarization** section, select the **Basic Summary** radio
-    button**.**
+    button . 
 
        ![](./media/image53.png)
 
@@ -318,14 +318,14 @@ each paycheck in Contoso Electronics+++
     summarize** section, in the message box, replace the current text
     with the following, then click on the **Summarize** button.
 
-It’s been six months since we reinvented search with [the new AI-powered
-Bing and
-Edge](https://blogs.microsoft.com/blog/2023/02/07/reinventing-search-with-a-new-ai-powered-microsoft-bing-and-edge-your-copilot-for-the-web/).
-In that short time, you’ve engaged in so many unique and creative ways;
-to date we’ve seen over 1 billion chats and over 750 million images fill
-the world of Bing! We’ve also seen nine consecutive quarters of growth
-on Edge, meaning we’re more able than ever to bring our best-in-class AI
-experiences to users across the web.
+      It’s been six months since we reinvented search with [the new AI-powered
+      Bing and
+      Edge](https://blogs.microsoft.com/blog/2023/02/07/reinventing-search-with-a-new-ai-powered-microsoft-bing-and-edge-your-copilot-for-the-web/).
+      In that short time, you’ve engaged in so many unique and creative ways;
+      to date we’ve seen over 1 billion chats and over 750 million images fill
+      the world of Bing! We’ve also seen nine consecutive quarters of growth
+      on Edge, meaning we’re more able than ever to bring our best-in-class AI
+      experiences to users across the web.
       ![](./media/image54.png)
 
 23. Check the summary of the text that you’ve entered.
