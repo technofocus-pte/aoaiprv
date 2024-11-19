@@ -56,21 +56,21 @@ functionality.
 
 2.  Run the following command to install Azure Cli on the PowerShell
 
-PowerShell copy
+    PowerShell copy
 
-+++winget install microsoft.azd+++
+  ! !winget install microsoft.azd!!
       ![](./media/image3.png)
 
 3.  Run the below command to set the policy to **Unrestricted** and
     enter **A** when asked to change the execution policy.
 
-+++Set-ExecutionPolicy Unrestricted+++
+    !!Set-ExecutionPolicy Unrestricted!!
       ![](./media/image4.png)
 
 ## Task 2: Install Node.js
 
 1.  Open your browser, navigate to the address bar, type or paste the
-    following URL:+++https://nodejs.org/en/download/+++ then press the
+    following URL:!!https://nodejs.org/en/download/!! then press the
     **Enter** button.
 
      ![](./media/image5.png)
@@ -116,7 +116,7 @@ PowerShell copy
 ## Task 3: Assign a user as an owner of an Azure subscription
 
 1.  Open your browser, navigate to the address bar, and type or paste
-    the following URL: +++https://portal.azure.com/+++, then press the
+    the following URL: !!https://portal.azure.com/!!, then press the
     **Enter** button.
 
       ![](./media/image15.png)
@@ -126,7 +126,7 @@ PowerShell copy
 
       ![](./media/image16.png)
 
-3.  Then, enter the password and click on the **Sign in** button**.**
+3.  Then, enter the password and click on the **Sign in** button . 
 
        ![](./media/image17.png)
 
@@ -198,7 +198,7 @@ PowerShell copy
 
 2.  Open your browser, navigate to the address bar, type or paste the
     following URL:
-    +++https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers+++
+    !!https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers!!
     then press the **Enter** button.
 
       ![](./media/image33.png)
@@ -224,7 +224,7 @@ PowerShell copy
 
 1.  Open your browser, navigate to the address bar, type or paste the
     following URL:
-    +++https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/azure-samples/rag-postgres-openai-python+++ then press the **Enter** button.
+    !!https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/azure-samples/rag-postgres-openai-python!! then press the **Enter** button.
 
       ![](./media/image38.png)
 
@@ -289,14 +289,14 @@ PowerShell copy
     be a unique number, you can add more digits after XX to make the
     name unique)
 
-  **Note:** When creating an environment, ensure that the name consists of
-  lowercase letters.
-     ![](./media/image51.png)
+    **Note:** When creating an environment, ensure that the name consists of
+    lowercase letters.
+       ![](./media/image51.png)
 
 7.  Run the following Azure Developer CLI command to provision the Azure
     resources and deploy the source code.
 
-     +++azd up+++
+       !!azd up!!
 
        ![](./media/image52.png)
 
