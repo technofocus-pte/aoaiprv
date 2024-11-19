@@ -39,7 +39,7 @@ template to Azure with both of these accounts.
 ### **Task 1: Deploy infrastructure from template**
 
 1.  Open a new browser and enter the following URL in the address
-    bar: +++https://portal.azure.com/+++ to open the Azure Portal.
+    bar: !!https://portal.azure.com/!! to open the Azure Portal.
 
      ![](./media/image1.jpeg)
 
@@ -85,23 +85,23 @@ template to Azure with both of these accounts.
     name of the Azure resource group that you create
     (mslearn-cosmos-openai).
 
-+++resourceGroupName="mslearn-cosmos-openai"+++
+    !!resourceGroupName="mslearn-cosmos-openai"!!
       ![](./media/image11.jpeg)
 
 8.  Create a resource group using the **az group create** command. Then,
     execute the following command
 
-+++az group create --name $resourceGroupName --location "uksouth"+++
+   !!az group create --name $resourceGroupName --location "uksouth"!!
      ![](./media/image12.jpeg)
 
 9.  Deploy the **azuredeploy.json** template file to the resource group
     using az group deployment create. Then, execute the following
     command.
-
-az deployment group create --resource-group $resourceGroupName --name
-zero-touch-deployment --template-file azuredeploy.json
-
-**Note:** This deployment can take approximately 5-10 minutes.
+      ```
+      az deployment group create --resource-group $resourceGroupName --name
+      zero-touch-deployment --template-file azuredeploy.json
+      ```
+    **Note:** This deployment can take approximately 5-10 minutes.
       ![](./media/image13.jpeg)
       ![](./media/image14.jpeg)
 
@@ -207,7 +207,7 @@ Azure portal or Azure CLI to retrieve the credentials for each service.
 
 9.  **Build** the .NET project by executing the below command.
 
-dotnet build
+      dotnet build
      ![](./media/image31.jpeg)
 ## **Exercise 3: Understand the code**
 
@@ -373,7 +373,7 @@ client required to access Azure Cosmos DB for NoSQL using the client.
 4.  The below code create a new nullable variable of type Database named
     database by calling the GetDatabase method of the client variable.
 
-   +++Database? database = client?.GetDatabase(databaseName);+++
+   !!Database? database = client?.GetDatabase(databaseName);!!
 
 5.  The below code assigns the constructor's container variable to the
     class'
@@ -416,7 +416,7 @@ differentiate between these types using a simple type field.
     PartitionKey using the current session's SessionId property as the
     parameter.
 
-+++PartitionKey partitionKey = new(session.SessionId);+++
+     !!PartitionKey partitionKey = new(session.SessionId);!!
 
 3.  The below code invokes the CreateItemAsync method of the container
     passing in the session parameter and partitionKey variable. Returns
@@ -442,7 +442,7 @@ differentiate between these types using a simple type field.
         partitionKey: partitionKey
     );
     ```
-   ![](./media/image35.jpeg)
+     ![](./media/image35.jpeg)
 
 ### **Task 6: Retrieve multiple sessions or messages**
 
@@ -503,15 +503,15 @@ solution.
 1.  From the **Visual Studio Code Terminal**, build the project using
     the below command.
 
-+++dotnet build+++
+    !!dotnet build!!
 
-![](./media/image37.jpeg)
+    ![](./media/image37.jpeg)
 
 2.  Start the application with hot reloads enabled using dotnet watch.
 
-+++dotnet watch run --non-interactive+++
+      !!dotnet watch run --non-interactive!!
 
-   ![](./media/image38.jpeg)
+     ![](./media/image38.jpeg)
 
 3.  Visual Studio Code launches the in-tool simple browser with the web
     application running. In the web application, create a new chat
@@ -523,14 +523,14 @@ solution.
 4.  Paste the following text in the text box and click on
     the **Send** icon.
 
-  +++How many wins does it take to promote to the Premier League?+++
+     !!How many wins does it take to promote to the Premier League?!!
     ![](./media/image40.jpeg)
      ![](./media/image41.jpeg)
 
 5.  Paste the following text in the text box and click on
     the **Send** icon.
 
-  +++What is Azure OpenAI?+++
+    !!What is Azure OpenAI?!!
     ![](./media/image42.jpeg)
     ![](./media/image43.jpeg)
 
@@ -539,7 +539,7 @@ solution.
 ## **Exercise 5: Clean up resource group**
 
 1.  Open a new browser and enter the following URL in the address
-    bar: +++https://portal.azure.com/+++ to open the Azure Portal.
+    bar: !!https://portal.azure.com/!! to open the Azure Portal.
 
 2.  Click on the **Portal Menu**, then select **Resource group.**
      ![](./media/image15.jpeg)
@@ -559,7 +559,7 @@ solution.
      ![](./media/image45.jpeg)
 
 6.  Once the Resource group is deleted, from the Azure portal home page,
-    search for +++**Azure AI Services**+++ and select it.
+    search for !!**Azure AI Services**!! and select it.
 
      ![](./media/image46.jpeg)
 
