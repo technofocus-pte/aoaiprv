@@ -56,7 +56,7 @@ solution, and cleaning up the environment.
 ## Task 1: Deploy infrastructure from template
 
 1.  Open your browser, navigate to the address bar, and type or paste
-    the following UR:+++www.portal.azure.com/+++then press the
+    the following UR:!!www.portal.azure.com/!!then press the
     **Enter** button.
 
 2.  In the **Microsoft Azure** window, enter your **Sign-in**
@@ -73,7 +73,7 @@ solution, and cleaning up the environment.
      ![](./media/image4.png)
 
 5.  Open a new browser and enter the following URL in the address bar:
-    +++https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure-Samples%2Fchat-with-your-data-solution-accelerator%2Fmain%2Finfra%2Fmain.json+++
+    !!https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure-Samples%2Fchat-with-your-data-solution-accelerator%2Fmain%2Finfra%2Fmain.json!!
     to open the Azure Portal.
 
 6.  On **Custom deployment** window, under the **Basics** tab, enter the
@@ -82,7 +82,7 @@ solution, and cleaning up the environment.
 
      |   |   |
      |---|---|
-     |Environment Name|	Enter RAGSolutionXX(XXXcan be a unique name)|
+     |Environment Name|	Enter !!RAGSolutionXX!!(XXXcan be a unique name)|
      |Location|	Select near by available region, in this lab East US is using for this resource|
 
       ![](./media/image5.png)
@@ -220,7 +220,7 @@ solution, and cleaning up the environment.
 16. In the **Azure AI** web app page, enter the following text and click
     on the **Submit icon** as shown in the below image.
 
- +++Describe in more detail the risks from market volatility+++
+    !!Describe in more detail the risks from market volatility!!
       ![](./media/image32.png)
       ![](./media/image33.png)
 
@@ -232,14 +232,14 @@ solution, and cleaning up the environment.
 18. In the **Azure AI** web app page, enter the following text and click
     on the **Submit icon** as shown in the below image.
 
-+++How does Woodgrove Financial handle payroll taxes for employees outside the U.S.?+++
+   !!How does Woodgrove Financial handle payroll taxes for employees outside the U.S.?!!
       ![](./media/image35.png)
       ![](./media/image36.png)
 
 19. In the **Azure AI** web app page, enter the following text and click
     on the **Submit icon** as shown in the below image.
 
-+++What is FORM 10-K and explain?+++
+    !!What is FORM 10-K and explain?!!
      ![](./media/image37.png)
 
 ## **Task 4: Delete Azure OpenAI Resource**
