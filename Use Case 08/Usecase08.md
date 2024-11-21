@@ -57,7 +57,7 @@ setup a resource that meets your organization's requirements instead of
 using AI Studio for resource creation.
 
 1.  Open your browser, navigate to the address bar, and type or paste
-    the following URL:+++https://portal.azure.com/+++ , then press
+    the following URL:!!https://portal.azure.com/!! , then press
     the **Enter** button.
 
       ![](./media/image1.png)
@@ -94,7 +94,7 @@ using AI Studio for resource creation.
     |Subscription	|Select your Azure OpenAI subscription|
     |Resource group|	Click on Create new> enter +++AOAI-RGXX+++(XX can be a unique number, you can add more digits after XX to make the name unique)|
     |Region|	For this lab, you will use a GPT-4 model. This model is currently only available in certain regions. Please select a region from this list, In this lab East US 2 is using for this resource.|
-    |Name	|+++Copilot-AzureAIXX+++ (XXcan be unique number)|
+    |Name	|!!Copilot-AzureAIXX!! (XXcan be unique number)|
 
      ![](./media/image7.png)
 
@@ -220,14 +220,14 @@ using AI Studio for resource creation.
 
 5.  On the **Create a search service** page, provide the following
     information and click on **Review+create** button.
-    |  |  |
-    |----|----|
-    |Field	|Description|
-    |Subscription|	Select your Azure OpenAI subscription|
-    |Resource group|	Select your Resource group(that you have created in Task 1)|
-    |Region|	East US|
-    |Name|	+++mysearchserviceXX+++  (XXcan be unique number)|
-    |Pricing Tier|	Click on change Price Tire>select Basic|
+      |  |  |
+      |----|----|
+      |Field	|Description|
+      |Subscription|	Select your Azure OpenAI subscription|
+      |Resource group|	Select your Resource group(that you have created in Task 1)|
+      |Region|	East US|
+      |Name|	!!mysearchserviceXX!!  (XXcan be unique number)|
+      |Pricing Tier|	Click on change Price Tire>select Basic|
 
      ![](./media/image31.png)
      ![](./media/image32.png)
@@ -532,8 +532,8 @@ your Azure subscription.
 
     ![](./media/image89.png)
 
-2.  Enter a folder name for your prompt flow as +++**Contoso outdoor
-    flow+++** . Then select **Open**. Azure AI Studio exports the
+2.  Enter a folder name for your prompt flow as !!Contoso outdoor
+    flow!! . Then select **Open**. Azure AI Studio exports the
     playground chat environment including connections to your data to
     prompt flow.
 
@@ -1312,13 +1312,13 @@ the deployed flow.
 
       ![](./media/image168.png)
 
-**Note:** Evaluation with AI-assisted metrics needs to call another GPT
-model to do the calculation. For best performance, use a model that
-supports at least 16k tokens such as gpt-4-32k or gpt-35-turbo-16k
-model. If you didn't previously deploy such a model, you can deploy
-another model by following the steps in [**the AI Studio chat playground
-quickstart**](https://learn.microsoft.com/en-us/azure/ai-studio/quickstarts/get-started-playground#deploy-a-chat-model).
-Then return to this step and select the model you deployed.
+    **Note:** Evaluation with AI-assisted metrics needs to call another GPT
+    model to do the calculation. For best performance, use a model that
+    supports at least 16k tokens such as gpt-4-32k or gpt-35-turbo-16k
+    model. If you didn't previously deploy such a model, you can deploy
+    another model by following the steps in [**the AI Studio chat playground
+    quickstart**](https://learn.microsoft.com/en-us/azure/ai-studio/quickstarts/get-started-playground#deploy-a-chat-model).
+    Then return to this step and select the model you deployed.
 
 13. You need to configure your data columns to match the required inputs
     to generate evaluation metrics. Enter the following values to map
@@ -1386,14 +1386,14 @@ portal](https://portal.azure.com/?azure-portal=true).
 3.  Carefully select all resources except Azure Open AI service (that
     you have created in **Lab 1**).
 
-**Note**: Don’t select Azure OpenAI service.
+    **Note**: Don’t select Azure OpenAI service.
 
 4.  In the Resource group page, navigate to the command bar and click on
     **Delete**.
 
-**Important Note**: Don’t click on **Delete resource group**. If you
-don’t see the **Delete** option in the command bar, then click on the
-horizontal ellipsis.
+    **Important Note**: Don’t click on **Delete resource group**. If you
+    don’t see the **Delete** option in the command bar, then click on the
+    horizontal ellipsis.
      ![](./media/image178.png)
 
 5.  In the **Delete Resources** pane that appears on the right side,
