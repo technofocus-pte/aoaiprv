@@ -45,7 +45,7 @@ uses this information to provide a completion.
 
 1.  Open your browser, navigate to the address bar, and type or paste
     the following URL:
-   +++https://portal.azure.com/+++ , then press
+  !!https://portal.azure.com/!! , then press
     the **Enter** button.
 
      ![](./media/image1.png)
@@ -55,7 +55,7 @@ uses this information to provide a completion.
 
       ![](./media/image2.png)
 
-3.  Then, enter the password and click on the **Sign in** button**.**
+3.  Then, enter the password and click on the **Sign in** button . 
 
      ![](./media/image3.png)
 
@@ -92,9 +92,9 @@ uses this information to provide a completion.
     |  |  |
     |----|----|
     |Subscription|	Select the assigned subscription|
-    |Resource group|	Click on Create new> enter AOAI-RGXX(XX can be a unique number, you can add more digits after XX to make the name unique)
+    |Resource group|	Click on Create new> enter !!AOAI-RGXX!!(XX can be a unique number, you can add more digits after XX to make the name unique)
     Region	For this lab, you will use a gpt-35-turbo model. This model is currently only available in certain regions. Please select a region from this list, In this lab East US is using for this resource|
-    |Name	|Azure-openai-testXX (XX can be a unique number, you can add more digits after XX to make the name unique) (here, we entered Azure-open-test39)|
+    |Name	|!!Azure-openai-testXX!!(XX can be a unique number, you can add more digits after XX to make the name unique) (here, we entered Azure-open-test39)|
     |Pricing tier|	Select Standard S0|
 
      ![](./media/image9.png)
@@ -146,7 +146,7 @@ uses this information to provide a completion.
 
       ![](./media/image19.png)
 
-5.  Type the **+++Cognitive Services Usages Reader+++** in the search box and
+5.  Type the **!!Cognitive Services Usages Reader!!** in the search box and
     select it. Click **Next**
 
       ![](./media/image20.png)
@@ -183,7 +183,7 @@ uses this information to provide a completion.
 
       ![](./media/image19.png)
 
-12. Type the +++Cognitive Services Contributor+++ in the search box and select it. Click **Next**
+12. Type the !!Cognitive Services Contributor!! in the search box and select it. Click **Next**
 
       ![](./media/image26.png)
 
@@ -227,7 +227,7 @@ uses this information to provide a completion.
 
       ![](./media/new8.png)
 
-21. Type the +++Cognitive Services Contributor+++ in the search box and select it. Click **Next**
+21. Type the !!Cognitive Services Contributor!! in the search box and select it. Click **Next**
 
      ![](./media/image35.png)
 
@@ -255,7 +255,7 @@ uses this information to provide a completion.
 
 ## Task 3: Create an Azure Storage Account by using the portal
 
-1.  Sign in to the +++https://portal.azure.com/+++
+1.  Sign in to the !!https://portal.azure.com/!!
 2.  Click on the **Portal Menu**, then select **+ Create a resource**
 
       ![](./media/image37.png)
@@ -375,7 +375,7 @@ uses this information to provide a completion.
     |Subscription	|Select your Azure OpenAI subscription|
     |Resource group|	Select your Resource group(that you have created in Task 1)|
     |Region|	EastUS |
-    |Name|mysearchserviceXX (XXcan be unique number)|
+    |Name|!!mysearchserviceXX!! (XXcan be unique number)|
     |Pricing Tier|	Click on change Price Tire>select Basic|
 
     ![](./media/image59.png)
@@ -399,7 +399,7 @@ uses this information to provide a completion.
 
      ![](./media/image65.png)
 
-10. On the **Semantic ranker** tab**,** select **Standard** tile and click
+10. On the **Semantic ranker** tab ,  select **Standard** tile and click
     on the **Select plan.**
 
      ![](./media/new9.png)
@@ -443,7 +443,6 @@ uses this information to provide a completion.
       ![](./media/image74.png)
 
 7. In the **Deployments** page, click on +**Create new deployment**.
-
        ![](./media/image75.png)
 
 8. In the **Deploy model** dialog box, under **Select a model** click
@@ -488,7 +487,15 @@ take advantage of the latest weights/updated token limit.*
 4.  In the **Add data** page, under **Select or add data source** enter
     the following details and select **Next.**
 
-[TABLE]
+      |  |  |
+      |---|---|
+      |Subscription|	Select your Azure OpenAI subscription|
+      |Select Azure Blob storage resource|	Select your Azure Blob storage that you have created in Exercise 1 Task 2(azureopenaistorageXX)|
+      |Select storage container	|source|
+      |Select Azure AI Search resource |	Select your Azure AI Search that you have created in Exercise 1 Task 3(mysearchserviceXX)|
+      |Enter the index name	|azure-index |
+      |Indexer schedule |	Once|
+
 
 5.  Select the check box – **Add vector search to this search
     resource**.
@@ -505,7 +512,7 @@ time, as mentioned in Lab \#1, Task \#1.*
 7.  In the **Add data** page, on the **Data management** tab drop down
     the Search type and select **Hybrid+semantic.**
 
-8.  Select the **chunk size** as **1024(default).**Then, click on
+8.  Select the **chunk size** as **1024(default)** Then, click on
     **Next.**
 
       ![](./media/image82.png)
@@ -532,9 +539,9 @@ time, as mentioned in Lab \#1, Task \#1.*
 1.  In the **Chat session** section, enter the following prompt in the
     **User message** text box and click on the **Send** icon
 
-CodeCopy
-
-+++What is Azure OpenAI Service?+++
+    CodeCopy
+    
+    !!What is Azure OpenAI Service?!!
      ![](./media/image87.png)
      ![](./media/image88.png)
 
@@ -547,9 +554,9 @@ CodeCopy
 3.  Send the following prompt to the model by pasting them in User
     message text box and clicking on the Send icon.
 
-CodeCopy
-
-+++How do I get access to Azure OpenAI?+++ 
+      CodeCopy
+      
+      !!How do I get access to Azure OpenAI?!!
     ![](./media/image91.png)
 
 4.  In the **Chat session** section, select the references link and
@@ -564,22 +571,28 @@ CodeCopy
 ## Task 1: Deploy a web app
 
 1.  Open your browser, navigate to the address bar, and type or paste
-    the following URL:+++https://oai.azure.com/+++then press the
+    the following URL:!!https://oai.azure.com/!!then press the
     **Enter** button.
 
 2.  In Azure AI Studio **Chat playground**, click on the V chevron
     button beside **Deploy to**, then navigate and click on **A new web
     app**.
 
-Note: In case, you did not see **Deploy to** button on your VM, then use
-Ctrl+- or Ctrl+minus keyboard shortcut to zoom out and decrease the font
-size.
+    Note: In case, you did not see **Deploy to** button on your VM, then use
+    Ctrl+- or Ctrl+minus keyboard shortcut to zoom out and decrease the font
+    size.
      ![](./media/image94.png)
 
 3.  On **Deploy to a web app** window, select **Create a new web app**
     radio button and enter the following details:
 
-[TABLE]
+      |  |   |
+      |---|---|
+      |Name| 	AOAI-webappXXX(XXX can be a unique number) (here, we entered AOAI-webapp129)|
+      |Subscription	|Select the assigned subscription|
+      |Resource Group	|Select the resource group created in Lab 1|
+      |Location	|East US|
+      |Pricing plan	|Basic(B1)|
 
 4.  Select the check box of **Enable chat history in the web app**
 
@@ -603,11 +616,10 @@ size.
     AI Studio**).
 
 
-    ![](./media/image98.png)
+      ![](./media/image98.png)
 
-10.  On the right side of **Chat playground**, click on **Launch web
+9  On the right side of **Chat playground**, click on **Launch web
     app** button.
-
      ![](./media/image99.png)
 
 10. Wait for 10 minutes, so that authentication configuration can be
@@ -629,20 +641,20 @@ size.
 14. In the **Azure AI** web app page, enter the following text and click
     on the **Submit icon** as shown in the below image.
 
-**CodeCopy**
-
-+++How do I get access to Azure OpenAI?+++
+    **CodeCopy**
+    
+    !!How do I get access to Azure OpenAI?!!
     ![](./media/image103.png)
     ![](./media/image104.png)
 
      ![](./media/image105.png)
 15. Similarly, paste the following text in the text box and click on the
     **Send** icon.
-
-**CodeCopy**
-
-+++What is the expiry date of GPT-35-Turbo version 0301 and GPT-4 version
-0314?+++
+      
+      **CodeCopy**
+      
+      !!What is the expiry date of GPT-35-Turbo version 0301 and GPT-4 version
+      0314?!!
      ![](./media/image106.png)
 
       ![](./media/image107.png)
@@ -681,12 +693,20 @@ size.
 4.  In the **Add data** page, under **Select or add data source** enter
     the following details and select **Next.**
 
-[TABLE]
-     ![](./media/image115.png)
+      |  |  |
+      |---|---|
+      |Subscription	|Select your Azure OpenAI subscription|
+      |Select Azure Blob storage resource|	Select your Azure Blob storage that you have created in Exercise 1 Task 2(azureopenaistorageXX)|
+      |Select storage container|	source|
+      |Select Azure AI Search resource| 	Select your Azure AI Search that you have created in Exercise 1 Task 3(mysearchserviceXX)|
+      |Enter the index name|	copilot-index|
+      |Indexer schedule |	Once|
 
-***Note**: In case, you encounter an error – **Can‘t manage CORS on this
-resource. Please select another storage resource**, then syn your VM
-time, as mentioned in Lab \#1, Task \#1.*
+     ![](./media/image115.png)
+      
+       **Note**: In case, you encounter an error – **Can‘t manage CORS on this
+      resource. Please select another storage resource**, then syn your VM
+      time, as mentioned in Lab \#1, Task \#1.
 
 5.  In the **Add data** page, on the **Data management** tab drop down
     the Search type and select **Keyword,** select the chunk size as
@@ -713,7 +733,7 @@ time, as mentioned in Lab \#1, Task \#1.*
 
 ## Task 2: Create a copilot with custom data from Azure OpenAI
 
-1.  Login to +++https://copilotstudio.microsoft.com/+++ using your
+1.  Login to !!https://copilotstudio.microsoft.com/!! using your
     Azure login credentials.
 
       ![](./media/image120.png)
@@ -737,7 +757,7 @@ time, as mentioned in Lab \#1, Task \#1.*
       ![](./media/image124.png)
 
 6.  On the Create a copilot page, enter the **name** as
-    +++CopilotforAOAI+++ and click on **Create**.
+    !!CopilotforAOAI!! and click on **Create**.
      ![](./media/image125.png)
 
 7.  Click on **Topics -\> System -\> Conversational boosting**.
@@ -761,17 +781,17 @@ time, as mentioned in Lab \#1, Task \#1.*
 11. In the **Connection Properties** pane, under **General -\>
     Configuration**, fill in the below details
 
-      -Deployment – +++gpt-35-turbo+++
+      -Deployment – !!gpt-35-turbo!!
 
-       -Api version – +++0301+++
+       -Api version – !!0301!!
       ![](./media/image129.png)
 
 12. Under the **Model data** tab, click on **+ Add** under Data sources
     and then add the below details.
 
-       -Index name - +++copilot-index+++
+       -Index name - !!copilot-index!!
 
-       -Content data – +++content+++
+       -Content data – !!content!!
 
       ![](./media/image130.png)
 
@@ -810,16 +830,15 @@ time, as mentioned in Lab \#1, Task \#1.*
 3.  Carefully select storage account, Azure Cognitive Search, Azure web
     app, CosmosDB that you’ve created.
 
-**Note**: Don’t select Azure OpenAI service.
-
+    **Note**: Don’t select Azure OpenAI service.
       ![](./media/image137.png)
 
 4.  In the Resource group page, navigate to the command bar and click on
     **Delete**.
 
-**Important Note**: Don’t click on **Delete resource group**. If you
-don’t see the **Delete** option in the command bar, then click on the
-horizontal ellipsis.
+    **Important Note**: Don’t click on **Delete resource group**. If you
+    don’t see the **Delete** option in the command bar, then click on the
+    horizontal ellipsis.
      ![](./media/image138.png)
 
 5.  In the **Delete Resources** pane that appears on the right side,
@@ -835,7 +854,7 @@ horizontal ellipsis.
     delete command on 4 selected items.**
 
      ![](./media/image141.png)
->
+ 
 > **Summary**
 >
 > You've created a storage account, container, and Azure cognitive
