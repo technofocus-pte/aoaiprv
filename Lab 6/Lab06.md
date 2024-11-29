@@ -139,7 +139,7 @@ processing.
 11. On **Microsoft.CognitiveServicesOpenAI** window, after the
     deployment is completed, click on the **Go to resource** button.
 
-      ![](./media/image18.png)
+      ![](./media/pic2.png)
 
 12. Click on **Keys and Endpoints** from the left navigation menu and
     then copy the endpoint value in a notepad to **AzureAI ENDPOINT**
