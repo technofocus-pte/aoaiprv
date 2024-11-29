@@ -91,19 +91,19 @@ features are available:
  
        ![](./media/image8.png)
 
-8.  In the **Create Azure OpenAI** window, under the **Basics** tab,
+8.  In the **Create Content Safety** window, under the **Basics** tab,
     enter the following details and click on the
     **Review+create**button.
 
-    |    |   |
-    |----|---|
-    |Subscription|	Select your subscription|
-    |Resource group|	Click on Create new> enter !!AOAI-RGXXX!!(XXX can be a unique number, you can add more digits after XX to make the name unique|
-    |Region	|Select East US|
-    |Name	|!!AOAI-ContentSafetyXX!! (XX can be unique number)|
-    |Pricing tier	|Select Free|
-
-     ![](./media/image9.png)
+      |    |   |
+      |----|---|
+      |Subscription|	Select your subscription|
+      |Resource group|	Click on Create new> enter !!AOAI-RGXXX!!(XXX can be a unique number, you can add more digits after XX to make the name unique|
+      |Region	|Select East US|
+      |Name	|!!AOAI-ContentSafetyXX!! (XX can be unique number)|
+      |Pricing tier	|Select Free|
+  
+       ![](./media/image9.png)
 
 9.  In the **Review+submit** tab, once the Validation is Passed, click
     on the **Create** button.
