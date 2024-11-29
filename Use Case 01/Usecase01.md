@@ -378,7 +378,7 @@ In this task, you create a new Azure OpenAI service.
     the **Azure** **OpenAI** tile, then click on the **Create** button
     on the **Azure OpenAI page**).
 
-      ![](./media/image38.png)
+      ![](./media/pic1.png)
 
 5.  On the Create Azure OpenAI **Basics** tab, enter the following
     information and click on **Next** button.
