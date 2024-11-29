@@ -104,7 +104,7 @@ processing.
     the **Azure** **OpenAI** tile, then click on the **Create** button
     on the **Azure OpenAI page**).
 
-      ![](./media/image13.png)
+      ![](./media/pic1.png)
 
 5.  In the **Create Azure OpenAI** window, under the **Basics** tab,
     enter the following details and click on the **Next** button.
