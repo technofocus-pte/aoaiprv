@@ -24,116 +24,106 @@ provisioning Azure OpenAI resource in the Azure portal.
 1.  In your VM, navigate and click in the **Search bar**, type
     **Settings** and then click on **Settings** under **Best match**.
 
-> ![](./media/image1.png)
+    ![](./media/image1.png)
 
 2.  On Settings window, navigate and click on **Time & language**.
 
-![](./media/image2.png)
+    ![](./media/image2.png)
 
 3.  On **Time & language** page, navigate and click on **Date & time**.
 
-![](./media/image3.png)
+    ![](./media/image3.png)
 
 4.  Scroll down and navigate to **Additional settings** section, then
     click on **Syn now** button. It will take 3-5 minutes to syn.
 
-![](./media/image4.png)
+    ![](./media/image4.png)
 
 5.  Close the **Settings** window.
 
-![](./media/image5.png)
+      ![](./media/image5.png)
 
 ## **Task 1: Register the required Resource providers**
 
 1.  Open your browser, navigate to the address bar, type or paste the
-    following URL:
-    [*https://portal.azure.com/*](https://portal.azure.com/), then press
+    following URL:!!https://portal.azure.com/!!, then press
     the **Enter** button.
 
-> ![A screenshot of a computer Description automatically
-> generated](./media/image6.png)
+    ![](./media/image6.png)
 
 2.  In the **Sign in** window, enter the **Username** and click on the
     **Next** button.
 
-![](./media/image7.png)
+    ![](./media/image7.png)
 
 3.  Then, enter the password and click on the **Sign in** button**.**
 
-> ![A login screen with a log in box Description automatically
-> generated](./media/image8.png)
-
+      ![](./media/image8.png)
 4.  In **Stay signed in?** window, click on the **Yes** button.
 
-> ![Graphical user interface, application Description automatically
-> generated](./media/image9.png)
+      ![](./media/image9.png)
 
 5.  On **Welcome to Microsoft Azure** dialog box, click on **Maybe
     later** button.
 
-> ![A screenshot of a computer Description automatically
-> generated](./media/image10.png)
+      ![](./media/image10.png)
 
 6.  In the Azure portal search box, type **Subscriptions**, then click
     on **Subscriptions** under **Services**.
 
-![A screenshot of a computer Description automatically
-generated](./media/image11.png)
+      ![](./media/image11.png)
 
 7.  In the **Subscriptions** page, navigate and click on **Azure Pass –
     Sponsorship**.
 
-![A screenshot of a computer Description automatically
-generated](./media/image12.png)
+      ![](./media/image12.png)
 
 8.  In the **Azure Pass – Sponsorship** page left-sided navigation menu,
     navigate to the **Settings** section, then click on the **Resource
     Providers**.
 
-![A screenshot of a computer Description automatically
-generated](./media/image13.png)
+      ![](./media/image13.png)
 
 9.  In the **Azure Pass – Sponsorship | Resource providers** page,
     navigate to the search box and type **Microsoft.Storage**. Select
     the **Microsoft.Storage** under **Provider**, then click on the
     **Register** as shown in the below image.
 
-![](./media/image14.png)
+      ![](./media/image14.png)
 
 10. You’ll see a notification stating - **Successfully registered
     resource provider** once the registration is successful. You can
     also view the notification by clicking on the bell icon in the Azure
     portal.
 
-![A screenshot of a computer Description automatically
-generated](./media/image15.png)
+      ![](./media/image15.png)
 
 11. In the **Azure Pass – Sponsorship | Resource providers** page,
     navigate to the search box and type **Microsoft.Security**. Select
     the **Microsoft.Security** under **Provider**, then click on the
     **Register** as shown in the below image.
 
-![](./media/image16.png)
+    ![](./media/image16.png)
 
 12. You’ll see a notification stating - **Successfully registered
     resource provider** once the registration is successful. You can
     also view the notification by clicking on the bell icon in the Azure
     portal.
 
-![](./media/image17.png)
+      ![](./media/image17.png)
 
 13. Repeat the steps \#10 and \#11 to register the following Resource
     providers.
 
-    - **Microsoft.CognitiveServices**
-
-    - **Microsoft.Search**
-
-    - **Microsoft.Sql**
-
-    - **Microsoft.Web**
-
-    - **Microsoft.ManagedIdentity**
+      - **Microsoft.CognitiveServices**
+  
+      - **Microsoft.Search**
+  
+      - **Microsoft.Sql**
+  
+      - **Microsoft.Web**
+  
+      - **Microsoft.ManagedIdentity**
 
 ## **Task 2: Create Azure OpenAI resource**
 
@@ -141,17 +131,17 @@ generated](./media/image15.png)
     represented by three horizontal bars on the left side of the
     Microsoft Azure command bar as shown in the below image.
 
-> ![](./media/image18.png)
+      ![](./media/image18.png)
 
 2.  Navigate and click on **+ Create a resource**.
 
-> ![](./media/image19.png)
+      ![](./media/image19.png)
 
 3.  On **Create a resource** page, in the **Search services and
     marketplace** search bar, type **Azure OpenAI**, then press the
     **Enter** button.
 
-> ![](./media/image20.png)
+      ![](./media/image20.png)
 
 4.  In the **Marketplace** page, navigate to the **Azure OpenAI**
     section, click on the Create button dropdown, then select **Azure
@@ -159,70 +149,78 @@ generated](./media/image15.png)
     the **Azure** **OpenAI** tile, then click on the **Create** button
     on the **Azure OpenAI page**).
 
-> ![](./media/image21.png)
+      ![](./media/image21.png)
 
 5.  In the **Create Azure OpenAI** window, under the **Basics** tab,
     enter the following details and click on the **Next** button.
 
-[TABLE]
+      |  |   |
+      |----|---|
+      |Subscription	|Select the assigned subscription|
+      |Resource group|	Click on Create new> enter !!AOAI-RGXX!!(XX can be a unique number, you can add more digits after XX to make the name unique)|
+      |Region|	For this lab, you will use a GPT-4O model. This model is currently only available in certain regions. Please select a region from this list, In this lab East US 2 is using for this resource.|
+      |Name|	!!Azure-openai-testXX!! (XX can be a unique number, you can add more digits after XX to make the name unique)| 
+      |Pricing tier|	Select Standard S0|
 
-> ![](./media/image22.png)
->
-> ![](./media/image23.png)
+
+    ![](./media/image22.png)
+ 
+    ![](./media/image23.png)
 
 6.  In the **Network** tab, leave all the radio buttons in the default
     state, and click on the **Next** button.
 
-> ![](./media/image24.png)
+      ![](./media/image24.png)
 
 7.  In the **Tags** tab, leave all the fields in the default state, and
     click on the **Next** button.
 
-> ![](./media/image25.png)
+      ![](./media/image25.png)
 
 8.  In the **Review+submit** tab, once the Validation is Passed, click
     on the **Create** button.
 
-> ![](./media/image26.png)
+      ![](./media/image26.png)
 
 9.  Wait for the deployment to complete. The deployment will take around
     2-3 minutes.
 
-![A screenshot of a computer Description automatically
-generated](./media/image27.png)
+      ![](./media/image27.png)
 
 10. On **Microsoft.CognitiveServicesOpenAI** window, after the
     deployment is completed, click on the **Go to resource** button.
 
-![](./media/image28.png)
+      ![](./media/image28.png)
 
 ## Task 3: Create a Speech resource in the Azure portal
 
 1.  Open your browser, navigate to the address bar, and paste the
-    following URL:
-    <https://portal.azure.com/#create/Microsoft.CognitiveServicesSpeechServices>
+    following URL:!!https://portal.azure.com/#create/Microsoft.CognitiveServicesSpeechServices!!
     then press the **Enter** button.
 
-![A screenshot of a computer Description automatically
-generated](./media/image29.png)
+      ![](./media/image29.png)
 
 2.  On the **Create Speech Services** page, enter the following
     information, then click on **Review+create** button.
 
-[TABLE]
+      |Field|	Description|
+      |---|---|
+      |Subscription	|Select your subscription|
+      |Resource group|	Select your Resource group (that you have created in task 2)|
+      |Region	|East US|
+      |Name|	!!SpeechChat-testXX!! (XX can be unique number)|
+      |Pricing Tier|	Standard S0|
 
-![A screenshot of a speech service Description automatically
-generated](./media/image30.png)
+
+      ![](./media/image30.png)
 
 3.  Once the Validation is passed, click on the **Create** button.
 
-![A screenshot of a computer Description automatically
-generated](./media/image31.png)
+    ![](./media/image31.png)
 
 4.  Wait for few minutes until the deployment is completed.
 
-![A screenshot of a computer Description automatically
-generated](./media/image32.png)
+    ![](./media/image32.png)
 
 ## **Task 4: Hear and speak with chat models in the Azure AI Studio playground**
 
@@ -241,158 +239,160 @@ text to speech feature to hear the assistant's response.
     corner of the page to go back to Azure portal. In the Azure portal,
     navigate and click on **Resource groups** under **Azure services**.
 
-![A screenshot of a computer Description automatically
-generated](./media/image33.png)
-
-> ![A screenshot of a computer Description automatically
-> generated](./media/image34.png)
+      ![](./media/image33.png)
+      ![](./media/image34.png)
 
 2.  Select the resource group that you’ve created .
 
-> ![](./media/image35.png)
+      ![](./media/image35.png)
 
 3.  In the **AOAI-RGXX Resource group** page, navigate and click on
     **Azure-openai-testXX** as shown in the below image.
 
-> ![](./media/image36.png)
+      ![](./media/image36.png)
 
 4.  In **Azure-openai-testXX** page, click on **Overview** in the
     left-sided navigation menu, scroll down and click on **Explore Azure
     AI Studio** button as shown in the below image.
 
-> ![](./media/image37.png)
+      ![](./media/image37.png)
 
-11. In the **Azure AI Foundry|Azure OpenAI Service** page, navigate to
+5. In the **Azure AI Foundry|Azure OpenAI Service** page, navigate to
     **Shared resources** section and click on **Deployments**.
 
-![](./media/image38.png)
+    ![](./media/image38.png)
 
-12. In the **Deployments** window, drop down the **+Deploy model** and
+6. In the **Deployments** window, drop down the **+Deploy model** and
     select **Deploy base model.**
 
-![](./media/image39.png)
+      ![](./media/image39.png)
 
-13. In the **Select a model** dialog box, navigate and carefully select
+7. In the **Select a model** dialog box, navigate and carefully select
     **gpt-4o**, then click on **Confirm** button.
 
-![](./media/image40.png)
+      ![](./media/image40.png)
 
-14. In the **Deploy model gpt-4o** dialog box, under the **Deployment
+8. In the **Deploy model gpt-4o** dialog box, under the **Deployment
     name** field, ensure that **gpt-4o**, then click on the **Deploy**
     button.
 
-![](./media/image41.png)
+    ![](./media/image41.png)
 
-15. **gpt-4o** deployment is successful.
+9. **gpt-4o** deployment is successful.
 
-![](./media/image42.png)
+     ![](./media/image42.png)
 
-16. In **gpt-4o** pane, click on **Open in Playground** button.
+10. In **gpt-4o** pane, click on **Open in Playground** button.
 
-![](./media/image43.png)
+      ![](./media/image43.png)
 
-17. Ensure that **gpt-4o** is selected under **Deployment**.
+11. Ensure that **gpt-4o** is selected under **Deployment**.
 
-![](./media/image44.png)
+    ![](./media/image44.png)
 
-18. Now, navigate to the Chat session section and click on **Chat
+12. Now, navigate to the Chat session section and click on **Chat
     capabilities**.
 
-![](./media/image45.png)
+    ![](./media/image45.png)
 
-** Note:** You should also see the options to select the microphone or
-speaker buttons. If you select either of these buttons but haven't yet
-enabled speech to text or text to speech, you are prompted to enable
-them in **Playground Settings**.
+    ** Note:** You should also see the options to select the microphone or
+    speaker buttons. If you select either of these buttons but haven't yet
+    enabled speech to text or text to speech, you are prompted to enable
+    them in **Playground Settings**.
 
-19. On the **Playground Settings** page, provide the following
+13. On the **Playground Settings** page, provide the following
     information and then click on the **Save** button.
 
-[TABLE]
+      |  |   |
+      |----|---|
+      |Language|	Select the language locale and voice you want to use for speaking and hearing. (In this lab, we are selecting English).|
+      |Subscription|	Select your Azure OpenAI subscription|
+      |Speech resource |	Select your speech resource group that you’ve created in Task #2.|
+      |Voice configuration|	Emma|
 
-- **Select the check box**-I acknowledge that spoken chat will incur
-  usage to my subscription.
 
-- Select **Enable speech to text** and **Enable text to speech**.
+      - **Select the check box**-I acknowledge that spoken chat will incur
+        usage to my subscription.
+      
+      - Select **Enable speech to text** and **Enable text to speech**.
+      
+      **Note**: Optionally, you can enter some sample text and
+      select **Play** to try the voice.
 
-**Note**: Optionally, you can enter some sample text and
-select **Play** to try the voice.
+      ![](./media/image46.png)
 
-![](./media/image46.png)
-
-20. Select the microphone button and speak to the assistant. For
+14. Select the microphone button and speak to the assistant. For
     example, you can say "**Do you know where I can get an Xbox**".
 
-![](./media/image47.png)
+      ![](./media/image47.png)
 
-21. In case, use your microphone dialog box appears, then click on the
+15. In case, use your microphone dialog box appears, then click on the
     **Allow** button.
 
-![A screenshot of a computer Description automatically
-generated](./media/image48.png)
+      ![](./media/image48.png)
 
-22. Click on the **Send** button (represented by right arrow) to send
+16. Click on the **Send** button (represented by right arrow) to send
     your message to the assistant. The assistant's response is displayed
     in the chat session pane.
 
-> ![](./media/image49.png)
+      ![](./media/image49.png)
+    
+      ![](./media/image50.png)
 
-![](./media/image50.png)
+    ** Note:** If the speaker button is turned on, you'll hear the
+    assistant's response. If the speaker button is turned off, you won't
+    hear the assistant's response, but the response will still be displayed
+    in the chat session pane.
 
-** Note:** If the speaker button is turned on, you'll hear the
-assistant's response. If the speaker button is turned off, you won't
-hear the assistant's response, but the response will still be displayed
-in the chat session pane.
+17. Select the microphone button and speak to the assistant. You can say
+    " **!!How do the capabilities of Azure OpenAI compare to OpenAI?!!”**
 
-23. Select the microphone button and speak to the assistant. You can say
-    " **How do the capabilities of Azure OpenAI compare to OpenAI?”**
-
-24. Click on the **Send** button (represented by right arrow) to send
+18. Click on the **Send** button (represented by right arrow) to send
     your message to the assistant. The assistant's response is displayed
     in the chat session pane.
 
-![](./media/image51.png)
+      ![](./media/image51.png)
 
-> ![](./media/image52.png)
+      ![](./media/image52.png)
 
-5.  Navigate to **Assistant setup** section. You can change the system
+19.  Navigate to **Assistant setup** section. You can change the system
     prompt to change the assistant's response format or style. Paste the
     following content under **System message** box, then click on
     **Apply changes** as shown in the below image.
 
-> Copy
->
-> "You're an AI assistant that helps people find information. Answers
-> shouldn't be longer than 20 words because you are on a phone. You
-> could use 'um' or 'let me see' to make it more natural and add some
-> disfluency."
->
-> ![](./media/image53.png)
+     Copy
+    ```
+     "You're an AI assistant that helps people find information. Answers
+     shouldn't be longer than 20 words because you are on a phone. You
+     could use 'um' or 'let me see' to make it more natural and add some
+     disfluency."
+    ```
+     ![](./media/image53.png)
 
-6.  In the **Update system message?** dialog box, click on the
+20.  In the **Update system message?** dialog box, click on the
     **Continue button.**
 
-> ![](./media/image54.png)
+      ![](./media/image54.png)
 
-7.  Select the microphone button and speak to the assistant. You can say
+21.  Select the microphone button and speak to the assistant. You can say
     "**Do you know where I can get an Xbox?”**
 
-8.  Click on the Send button (represented by right arrow) to send your
+22.  Click on the Send button (represented by right arrow) to send your
     message to the assistant. The assistant's response is displayed in
     the chat session pane.
 
-> ![](./media/image55.png)
+      ![](./media/image55.png)
 
-![](./media/image56.png)
+      ![](./media/image56.png)
 
-9.  Select the **View Code** button to view and copy the sample code,
+23.  Select the **View Code** button to view and copy the sample code,
     which includes configuration for Azure OpenAI and Speech services.
     You can use the sample code to enable speech to text and text to
     speech in your application.
 
-> ![](./media/image57.png)
->
-> ![](./media/image58.png)
+      ![](./media/image57.png)
+     
+      ![](./media/image58.png)
 
 ## Task 5: Install Python libraries and pip updating 
 
@@ -402,39 +402,35 @@ in the chat session pane.
     this app to make changes to your device?** then click on the **Yes**
     button.
 
-![A screenshot of a computer Description automatically
-generated](./media/image59.png)
+      ![](./media/image59.png)
 
 2.  Move into the folder where the Python was installed and run the
     **pip** command. i.e., **C:\Users\Admin**
 
-> copy
->
-> **python -m pip install --upgrade pip**
->
-> ![A screenshot of a computer screen Description automatically
-> generated](./media/image60.png)
+    copy
+   ```
+   python -m pip install --upgrade pip
+   ```
+![](./media/image60.png)
 
 3.  Run the following command to install Python libraries - openai,
     num2words, matplotlib, plotly, scipy, scikit-learn, pandas, tiktoken
 
-Copy
+     ```
+    
+    pip install openai num2words matplotlib plotly scipy scikit-learn pandas
+    tiktoken
+    ```
+    ![](./media/image61.png)
 
-pip install openai num2words matplotlib plotly scipy scikit-learn pandas
-tiktoken
-
-![](./media/image61.png)
-
-![A screen shot of a computer program Description automatically
-generated](./media/image62.png)
+    ![](./media/image62.png)
 
 4.  Run the below command to install the Transformers package:
 
-> Copy
->
-> pip install transformers
-
-![Text Description automatically generated](./media/image63.png)
+    ```
+      pip install transformers
+    ```
+     ![](./media/image63.png)
 
 ## **Task 6: Clean up resources**
 
@@ -446,34 +442,31 @@ portal](https://portal.azure.com/?azure-portal=true).
 1.  To delete the storage account, navigate to **Azure portal Home**
     page, click on **Resource groups**.
 
-> ![A screenshot of a computer Description automatically
-> generated](./media/image34.png)
+     ![](./media/image34.png)
 
 2.  Click on the resource group that you’ve created.
 
-> ![A screenshot of a computer Description automatically
-> generated](./media/image64.png)
+       ![](./media/image64.png)
 
 3.  In the **Resource group** home page, select the **delete resource
     group** .
 
-![](./media/image65.png)
+      ![](./media/image65.png)
 
 4.  In the Delete a resource group tab, enter your resource group name
     and click on **Delete button**.
 
-![](./media/image66.png)
+      ![](./media/image66.png)
 
 5.  In the **Delete Resources** pane that appears on the right side,
     navigate to **Enter “delete” to confirm deletion** field, type
     **delete**, then click on the **Delete** button.
 
-![](./media/image67.png)
+      ![](./media/image67.png)
 
 6.  On **Delete confirmation** dialog box, click on **Delete** button.
 
-> ![A screenshot of a computer Description automatically
-> generated](./media/image68.png)
+       ![](./media/image68.png)
 
 7.  Click on the bell icon, you’ll see the notification – **Executed
     delete command on 4 selected items.**
