@@ -25,7 +25,7 @@ Azure AI Vision features to generate additional insights from the images
 ## **Task 1: Register the required Resource providers**
 
 1.  Open your browser, navigate to the address bar, type or paste the
-    following URL:+++https://portal.azure.com/+++, then press
+    following URL:!!https://portal.azure.com/!!, then press
     the **Enter** button.
 
     ![](./media/b1.png)
@@ -109,7 +109,7 @@ Azure AI Vision features to generate additional insights from the images
 ## **Task 2: Create Azure OpenAI resource**
 
 1.  Open your browser, navigate to the address bar, and type or paste
-    the following URL: +++https://portal.azure.com/+++, then press the
+    the following URL: !!https://portal.azure.com/!!, then press the
     **Enter** button.
 
      ![](./media/image1.png)
@@ -155,7 +155,7 @@ Azure AI Vision features to generate additional insights from the images
     a.  **Subscription**: Select the assigned subscription
 
     b.  **Resource group:** Click on **Create new**\> enter
-        **AOAI-RGXX**(XX can be a unique number, you can add more digits
+        **!!AOAI-RGXX!!**(XX can be a unique number, you can add more digits
         after XX to make the name unique)
 
     c.  **Region**: For this lab, you will use a  **gpt-4-vision**
@@ -169,7 +169,7 @@ Azure AI Vision features to generate additional insights from the images
 
     e.  **Pricing tier**: Select **Standard S0**
 
-      ![](./media/image9.png)
+       ![](./media/image9.png)
 
 10. In the **Network** tab, leave all the radio buttons in the default
     state, and click on the **Next** button.
