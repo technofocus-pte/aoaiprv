@@ -44,7 +44,7 @@ uses this information to provide a completion.
 ## Task 1: Create Azure OpenAI resource
 
 1.  Open your browser, navigate to the address bar, and type or paste
-    the following URL:+++https://portal.azure.com/+++, then press
+    the following URL:!!https://portal.azure.com/!!, then press
     the **Enter** button.
 
       ![](./media/image1.png)
@@ -91,9 +91,9 @@ uses this information to provide a completion.
       |   |   |
       |---|----|
       |Subscription	|Select the assigned subscription|
-      |Resource group|	Click on Create new> enter +++AOAI-RGXXX+++(XXX can be a unique number)|
+      |Resource group|	Click on Create new> enter !!AOAI-RGXXX!!(XXX can be a unique number)|
       |Region	|Select East US 2|
-      |Name	|+++Azure-openai-testXX+++ (XX can be a unique number, you can add more digits after XX to make the name unique)|
+      |Name	|!!Azure-openai-testXX!! (XX can be a unique number, you can add more digits after XX to make the name unique)|
       |Pricing tier	|Select Standard S0|
 
 
@@ -222,7 +222,7 @@ uses this information to provide a completion.
 
       ![](./media/image33.png)
 
-21. Type the +++Cognitive Services Contributor+++ in the search box and select it. Click **Next**
+21. Type the !!Cognitive Services Contributor!! in the search box and select it. Click **Next**
 
       ![](./media/image34.png))
 
@@ -248,7 +248,7 @@ uses this information to provide a completion.
 
 ## Task 3: Create an Azure Storage Account by using the portal
 
-1.  Sign in to the +++https://portal.azure.com/+++
+1.  Sign in to the !!https://portal.azure.com/!!
 
 2.  Click on the **Portal Menu**, then select **+ Create a resource**
 
@@ -276,7 +276,7 @@ uses this information to provide a completion.
       |---|----|
       |Subscription	|Select your Azure OpenAI subscription|
       |Resource group|	Select your Resource group(that you have created in Task 1)|
-      |Storage account name|	+++azureopenaistorageXX+++(XX can be a unique number) (here, we entered azureopenaistorage39)|
+      |Storage account name|	!!azureopenaistorageXX!!(XX can be a unique number) (here, we entered azureopenaistorage39)|
       |Region	|Select the appropriate region for your storage account . In this lab East US is taken|
       |Performance|	Standard: Recommended for most scenarios (general-purpose v2 account)|
       |Redundancy	|Locally-redundant storage (LRS)|
@@ -370,7 +370,7 @@ uses this information to provide a completion.
       |Subscription|	Select your Azure OpenAI subscription|
       |Resource group|	Select your Resource group(that you have created in Task 1)|
       |Region|	EastUS|
-      |Name	|+++mysearchserviceXX+++ (XXcan be unique number)|
+      |Name	|!!mysearchserviceXX!! (XXcan be unique number)|
       |Pricing Tier|	Click on change Price Tire>select Basic|
 
 
@@ -465,7 +465,7 @@ uses this information to provide a completion.
      ![](./media/image77.png)
 
 10. In the **Deploy model** dialog box, under **Deployment name** enter
-    +++text-embedding-ada-002+++, select the **Standard** as
+    !!text-embedding-ada-002!!, select the **Standard** as
     **Deployment type** and Click on the **Deploy** button.
 
       ![](./media/image78.png)
@@ -496,7 +496,7 @@ uses this information to provide a completion.
       |Select Azure Blob storage resource	|Select your Azure Blob storage that you have created in Exercise 1 Task 2(azureopenaistorageXX)|
       |Select storage container|	source|
       |Select Azure AI Search resource|Select your Azure AI Search that you have created in Exercise 1 Task 3(mysearchserviceXX)|
-      |Enter the index name|+++azure-index+++| 
+      |Enter the index name|!!azure-index!!| 
       |Indexer schedule |	Once|
 
 3.  Select the check box – **Add vector search to this search
@@ -571,7 +571,7 @@ uses this information to provide a completion.
 
       |    |   |
       |---|----|
-      |Name |	+++AOAI-webappXXX+++(XXX can be a unique number) (here, we entered AOAI-webapp129)|
+      |Name |	!!AOAI-webappXXX!!(XXX can be a unique number) (here, we entered AOAI-webapp129)|
       |Subscription|	Select the assigned subscription|
       |Resource Group	|Select the resource group created in Lab 1|
       |Location|	East US|
@@ -634,8 +634,8 @@ uses this information to provide a completion.
 
       **CodeCopy**
       
-      **+++What is the expiry date of GPT-35-Turbo version 0301 and GPT-4 version
-      0314?+++**
+      **!!What is the expiry date of GPT-35-Turbo version 0301 and GPT-4 version
+      0314?!!**
       
       ![](./media/image104.png)
       
@@ -676,7 +676,7 @@ uses this information to provide a completion.
       |Select Azure Blob storage resource|	Select your Azure Blob storage that you have created in Exercise 1 Task 2(azureopenaistorageXX)|
       |Select storage container|	source|
       |Select Azure AI Search resource|Select your Azure AI Search that you have created in Exercise 1 Task 3(mysearchserviceXX)|
-      |Enter the index name	|+++copilot-index+++|
+      |Enter the index name	|!!copilot-index!!|
       |Indexer schedule|Once|
 
       ![](./media/image111.png)
@@ -733,7 +733,7 @@ uses this information to provide a completion.
       ![](./media/image120.png)
 
 6.  On the Create a copilot page, enter the **name** as
-    +++CopilotforAOAI+++ and click on **Create**.
+    !!CopilotforAOAI!! and click on **Create**.
 
       ![](./media/image121.png)
 
@@ -757,18 +757,18 @@ uses this information to provide a completion.
 11. In the **Connection Properties** pane, under **General -\>
     Configuration**, fill in the below details
 
-        Deployment – +++gpt-35-turbo+++
+        Deployment – !!gpt-35-turbo!!
         
-        Api version – +++0301+++
+        Api version – !!0301!!
 
       ![](./media/image125.png)
 
 12. Under the **Model data** tab, click on **+ Add** under Data sources
     and then add the below details.
 
-      Index name - +++copilot-index+++
+      Index name - !!copilot-index!!
       
-      Content data – +++content+++
+      Content data – !!content!!
 
       ![](./media/image126.png)
 
