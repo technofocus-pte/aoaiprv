@@ -177,85 +177,74 @@ solution, and cleaning up the environment.
 
       ![](./media/image20.png)
 
-7.  In **Chat with your data Solution Accelerator** page, from the left
-    navigation menu select **Configuration** and select the **check box-
-    Enable post-answering prompt.**
 
-      ![](./media/image21.png)
-
-8.  In the configuration pane , Click on the **Save configuration.**
-
-     ![](./media/image22.png)
-
-     ![](./media/image23.png)
-
-9.  Go back to the resource group page and click on **the Storage
+7.  Go back to the resource group page and click on **the Storage
     account** name
 
       ![](./media/image24.png)
 
-10. From the left navigation menu, click on **Containers.**
+8. From the left navigation menu, click on **Containers.**
 
      ![](./media/image25.png)
 
-11. In the Containers page, select **documents**.
+9. In the Containers page, select **documents**.
 
     ![](./media/image26.png)
 
-12. Make sure all the files should be deployed successfully
+10. Make sure all the files should be deployed successfully
 
      ![](./media/image27.png)
 
-13. Go back to the resource group page
+11. Go back to the resource group page
 
      ![](./media/image28.png)
 
-14. In the resource group page, select App service as
+12. In the resource group page, select App service as
     **web-{RESOURCE_TOKEN}-docker**
 
       ![](./media/image29.png)
 
-15.	From the collapsible left menu under Settings, select Authentication
+13.	From the collapsible left menu under Settings, select Authentication
        ![](./media/a4.png)
-16.	Click on  Add identify provider
+14.	Click on  Add identify provider
      ![](./media/a5.png)
-17.	Select Microsoft as the Identity provider, update Name as web-XXXXX-docker-new. Select Client secret expiration duration as 90 days and then click Next: Permissions.
+15.	Select Microsoft as the Identity provider, update Name as web-XXXXX-docker-new. Select Client secret expiration duration as 90 days and then click Next: Permissions.
      ![](./media/a6.png)
-18.	Click on Add permission. Scroll down in the list to expand Application and select Application.ReadWrite.All. Then click on Update permission.
+16.	Click on Add permission. Scroll down in the list to expand Application and select Application.ReadWrite.All. Then click on Update permission.
       ![](./media/a7.png)
-19.	Click on Add now.
+17.	Click on Add now.
       ![](./media/a8.png)
-20.	Click on Overview page of the app. Wait for the page to load and then click on Restart. Confirm restart by clicking on Yes
+18.	Click on Overview page of the app. Wait for the page to load and then click on Restart. Confirm restart by clicking on Yes
     ![](./media/a9.png)
    	![](./media/a10.png)
     
-22. On Web App **Overview** page, navigate to the command bar and click
+19. On Web App **Overview** page, navigate to the command bar and click
     on **Browse**, it will navigate you to the web application.
 
       ![](./media/image30.png)
 
       ![](./media/image31.png)
 
-23. In the **Azure AI** web app page, enter the following text and click
+20. In the **Azure AI** web app page, enter the following text and click
     on the **Submit icon** as shown in the below image.
 
    !!Describe in more detail the risks from market volatility!!
       ![](./media/image32.png)
       ![](./media/image33.png)
 
-17. In the **Chat session** section, select the references link and
+21. In the **Chat session** section, select the references link and
     observe the details of search document on right side of the page.
 
      ![](./media/image34.png)
 
-18. In the **Azure AI** web app page, enter the following text and click
+22. In the **Azure AI** web app page, enter the following text and click
     on the **Submit icon** as shown in the below image.
 
     !!How does Woodgrove Financial handle payroll taxes for employees outside the U.S.?!!
       ![](./media/image35.png)
       ![](./media/image36.png)
 
-19. In the **Azure AI** web app page, enter the following text and click
+23. In the **Azure AI** web app page, enter the following text and click
     on the **Submit icon** as shown in the below image.
 
     !!What is FORM 10-K and explain?!!
