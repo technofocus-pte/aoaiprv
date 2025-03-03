@@ -21,17 +21,17 @@ enhance user engagement through intuitive and efficient interactions.
 
 ## Task 1: Create an Azure AI Search resource
 
-1.  In a web browser, open the Azure portal at +++https://portal.azure.com+++ and sign in using your tenant credentials.
+1.  In a web browser, open the Azure portal at !!https://portal.azure.com!! and sign in using your tenant credentials.
 
     ![](./media/image1.png)
 
-2.  On the home page, select **+ Create a resource** and search for +++Azure AI Search+++. Then **create** a new Azure AI Search resource with the following settings:
+2.  On the home page, select **+ Create a resource** and search for !!Azure AI Search!!. Then **create** a new Azure AI Search resource with the following settings:
 
     - **Subscription**: Select your Azure subscription.
 
-    - **Resource group**: Select or create a resource group, here we select +++RG4OpenAI+++
+    - **Resource group**: Select or create a resource group, here we select !!RG4OpenAI!!
 
-    - **Service name**: Enter a unique service name, here we name it as +++copilotXXXX+++
+    - **Service name**: Enter a unique service name, here we name it as !!copilotXXXX!!
 
     - **Location**: Make a **random** choice from any of the following regions, here we select **Canada East**
 
@@ -74,7 +74,7 @@ enhance user engagement through intuitive and efficient interactions.
 
 ## Task 2: Create an Azure AI project
 
-1.  In a web browser, open Azure AI Foundry portal at +++https://ai.azure.com+++ and **sign in** using your admin tenant credentials.
+1.  In a web browser, open Azure AI Foundry portal at !!https://ai.azure.com!! and **sign in** using your admin tenant credentials.
 
 2.  In the home page, select **+ Create project**.
 
@@ -127,7 +127,7 @@ You need two models to implement your solution:
     ![](./media/image14.png)
 
 
-3.  On the **Select a model** page, search and select +++**text-embedding-ada-002**+++ model and click on **Confirm.**
+3.  On the **Select a model** page, search and select !!**text-embedding-ada-002**!! model and click on **Confirm.**
 
     ![](./media/image15.png)
 
@@ -137,7 +137,7 @@ You need two models to implement your solution:
     ![](./media/image16.png)
 
 
-    - **Deployment name**: +++text-embedding-ada-002+++
+    - **Deployment name**: !!text-embedding-ada-002!!
     
     - **Deployment type**: Standard
     
@@ -156,7 +156,7 @@ You need two models to implement your solution:
     ![](./media/image18.png)
 
 
-5.  Repeat the previous steps to deploy a +++gpt-35-turbo-16k+++ model with the deployment name gpt-35-turbo-16k.
+5.  Repeat the previous steps to deploy a !!gpt-35-turbo-16k!! model with the deployment name gpt-35-turbo-16k.
 
     ![](./media/image19.png)
 
@@ -193,7 +193,7 @@ The data for your copilot consists of a set of travel brochures in PDF format fr
 
 7.  Wait for the folder to be uploaded and note that it contains several .pdf files.
 
-8.  On the next page of name and finish, enter the data name as +++data0212+++ and click on **Create.**
+8.  On the next page of name and finish, enter the data name as !!data0212!! and click on **Create.**
 
     ![](./media/image26.png)
 
@@ -223,7 +223,7 @@ Now that you’ve added a data source to your project, you can use it to create 
     
       - **Select Azure AI Search service**: Select the **AzureAISearch** connection to your Azure AI Search resource*
     
-      - **Vector index**: +++brochures-index+++
+      - **Vector index**: !!brochures-index!!
     
       - **Virtual machine**: Auto select
     
@@ -264,7 +264,7 @@ Before using your index in a RAG-based prompt flow, let’s verify that it can b
 
     ![](./media/Picture7.png)
    
-3.  On the Chat page, in the Setup pane, ensure that your **gpt-35-turbo-16k** model deployment is selected. Then, in the main chat session panel, submit the prompt +++Where can I stay in New York?+++
+3.  On the Chat page, in the Setup pane, ensure that your **gpt-35-turbo-16k** model deployment is selected. Then, in the main chat session panel, submit the prompt !!Where can I stay in New York?!!
 
     ![](./media/image36.png)
 
@@ -277,7 +277,7 @@ Before using your index in a RAG-based prompt flow, let’s verify that it can b
 
     > **Note**: Some users are finding newly created indexes unavailable right away. Refreshing the browser usually helps, but if you’re still experiencing the issue where it can’t find the index you may need to wait until the index is recognized.
 
-6.  After the index has been added and the chat session has restarted, resubmit the prompt +++Where can I stay in New York?+++
+6.  After the index has been added and the chat session has restarted, resubmit the prompt !!Where can I stay in New York?!!
 
     ![](./media/image38.png)
 
@@ -291,7 +291,7 @@ Your vector index has been saved in your Azure AI Foundry project, enabling you 
 
     ![](./media/image39.png)
 
-2.  Create a new prompt flow by cloning the **Multi-Round Q&A on Your Data** sample in the gallery. Save your clone of this sample in a folder named +++brochure-flow+++.
+2.  Create a new prompt flow by cloning the **Multi-Round Q&A on Your Data** sample in the gallery. Save your clone of this sample in a folder named !!brochure-flow!!.
 
     ![](./media/image40.png)
 
@@ -416,7 +416,7 @@ Then ensure that the **inputs** for this tool include the following parameters
     ![](./media/image55.png)
 
 
-14. In the chat pane, replace the default input with the question +++**Where can I stay in London?**+++ and submit it.
+14. In the chat pane, replace the default input with the question !!**Where can I stay in London?**!! and submit it.
 
     ![](./media/image56.png)
 
@@ -428,7 +428,7 @@ Then ensure that the **inputs** for this tool include the following parameters
     ![](./media/image57.png)
 
 
-17. In the chat pane, enter the question +++**What can I do there?**+++
+17. In the chat pane, enter the question !!**What can I do there?**!!
 
 18. Review the response, which should be based on data in the index and take into account the chat history (so “there” is understood as “in London”).
 
