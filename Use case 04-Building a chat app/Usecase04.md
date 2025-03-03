@@ -36,7 +36,7 @@ roles.
 
 1.  Open your browser, navigate to the address bar, type or paste the
     following URL:
-    +++https://github.com/technofocus-pte/azure-search-openai-demo-csharp.git+++
+   !!https://github.com/technofocus-pte/azure-search-openai-demo-csharp.git!!
     and sign in with your Github account.
 
       ![](./media/image2.png)
@@ -62,7 +62,7 @@ roles.
 1.  Run the following command on the Terminal. Copy the code and press
     enter.
 
-    +++azd auth login+++
+    !!azd auth login!!
  
       ![](./media/image7.png)
 
@@ -85,7 +85,7 @@ roles.
 
         Note : env name should be unique
        
-        +++azd env new+++
+       !!azd env new!!
  
     ![](./media/image13.png)
 
@@ -93,7 +93,7 @@ roles.
     sample to those resources, including building the search index based
     on the files found in the ./data folder.
 
-     +++azd up+++
+     !!azd up!!
 
 6.  When prompted, select a **subscription** to create the resources and
     select a location **East US2**, This location is used for most the
@@ -131,7 +131,7 @@ roles.
 
     ![](./media/image24.png)
 
-11. Open a browser go to +++https://portal.azure.com+++ and sign in with
+11. Open a browser go to !!https://portal.azure.com!! and sign in with
     your Azure subscription account.
 
 12. On the Home page, click on **Resource Groups**
@@ -185,14 +185,14 @@ roles.
 21. In the **Blazor OpenAI** web app page, enter the following text and
     click on the **Submit icon** as shown in the below image.
 
-     **+++What is included in my Northwind Health Plus plan that is not in
-     standard?+++**
+     **!!What is included in my Northwind Health Plus plan that is not in
+     standard?!!**
       ![](./media/image37.png)
       ![](./media/image38.png)
 23. In the **Blazor OpenAI** web app page, enter the following text and
     click on the **Submit icon** as shown in the below image.
 
-     **+++Can I use out-of-network providers?+++**
+     **!!Can I use out-of-network providers?!!**
  
       ![](./media/image39.png)
       ![](./media/image40.png)
@@ -200,7 +200,7 @@ roles.
 23. In the **Blazor OpenAI** web app page, enter the following text and
     click on the **Submit icon** as shown in the below image.
 
-    **+++Are there any exclusions or restrictions?+++**
+    **!!Are there any exclusions or restrictions?!!**
  
       ![](./media/image41.png)
       ![](./media/image42.png)
@@ -208,7 +208,7 @@ roles.
 24. In the **Blazor OpenAI** web app page, enter the following text and
     click on the **Submit icon** as shown in the below image.
 
-    **+++What does a Product Manager do?+++**
+    **!!What does a Product Manager do?!!**
       ![](./media/image43.png)
 
 25. Click on the **Documents.**
