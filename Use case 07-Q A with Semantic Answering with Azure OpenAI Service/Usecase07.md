@@ -54,9 +54,9 @@ the question.
       |   |   |
       |----|------|
       |Subscription|	Select the assigned subscription|
-      |Resource group|	Click on Create new> enter AOAI-RGXX(XX can be a unique number, you can add more digits after XX to make the name unique)|
+      |Resource group|	Click on Create new> enter !!AOAI-RGXX!!(XX can be a unique number, you can add more digits after XX to make the name unique)|
       |Region|	Select East US|
-      |Name|	Azure-openai-testXX (XX can be a unique number, you can add more digits after XX to make the name unique) (here, we entered Azure-open-test39)|
+      |Name|	!!Azure-openai-testXX!! (XX can be a unique number, you can add more digits after XX to make the name unique) (here, we entered Azure-open-test39)|
       |Pricing tier|	Select Standard S0|
 
 
@@ -144,7 +144,7 @@ the question.
       ![](./media/image22.png)
 
 9.  In the **Deploy model** dialog box, under **Deployment name** enter
-    +++text-embedding-ada-002+++,  select the **Standard** as
+    !!text-embedding-ada-002!!,  select the **Standard** as
     **Deployment type** and Click on the **Deploy** button.
 
       ![](./media/image23.png)
@@ -155,7 +155,7 @@ the question.
 
 1.  Open your edge browser, navigate to the address bar, and type or
     paste the following URL:
-+++https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fruoccofabrizio%2Fazure-open-ai-embeddings-qna%2Fmain%2Finfrastructure%2Fdeployment_ACS.json+++ 
+!!https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fruoccofabrizio%2Fazure-open-ai-embeddings-qna%2Fmain%2Finfrastructure%2Fdeployment_ACS.json!! 
     then press the **Enter** button.
 
       ![](./media/image25.png)
@@ -168,13 +168,13 @@ the question.
       |----------------|----------------|
       |Subscription	|Select your Azure OpenAI subscription|
       |Resource group|	Select the Resource group that you’ve created in Task 1|
-      |Resource Prefix|	aoaichatsearchXXXX+++(can be a unique name) |
+      |Resource Prefix|	!!aoaichatsearchXXXX!!(can be a unique name) |
       |Azure Cognitive Search| Sku	Standard |
       |Hosting plan| Sku	B3|
       |OpenAI Name|	Enter your OpenAI name that you have created in Task#1 |
       |OpenAI Key|	Enter your OpenAI key that you have saved in your notepad in Task #2|
-      |Open AI Engine|	gpt-4 |
-      |Open AI Deployment Type|	Chat |
+      |Open AI Engine|	!!gpt-4!! |
+      |Open AI Deployment Type|	!!Chat!! |
       |Open AI Embeddings Engine Doc|	text-embeddeding-ada-002|
       |Open AI Embeddings Engine Query|	text-embeddeding-ada-002|
 
