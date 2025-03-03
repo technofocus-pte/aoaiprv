@@ -32,7 +32,7 @@ predefined datasets and metrics to enhance its effectiveness.
 To create a project in Azure AI Foundry, follow
 these steps:
 
-1.  Go to the **Home** page of Azure AI Foundry, by navigating to the following link +++https://ai.azure.com/+++ and click on **Sign in** with office 365 admin tenant credentials.
+1.  Go to the **Home** page of Azure AI Foundry, by navigating to the following link !!https://ai.azure.com/!! and click on **Sign in** with office 365 admin tenant credentials.
 
     ![](./media/image1.png)
 
@@ -49,11 +49,11 @@ these steps:
 
 5.  On the next page, enter the following details and click on **Next.**
 
-    - Hub name: hubXXXX
+    - Hub name: !!hubXXXX!!
 
     - Subscription: Select your subscription
 
-    - Create new Resource group: +++rg+++XXXX
+    - Create new Resource group: !!rg!!XXXX
 
     - Location: East US 2, or Sweden Central
 
@@ -128,7 +128,7 @@ Otherwise, you can create an Azure AI Search service using the Azure
 portal.
 
 1.  Create an Azure AI Search
-    service +++https://portal.azure.com/#create/Microsoft.Search+++ in the Azure portal, search for +++**AI search**+++ and click on icon.
+    service !!https://portal.azure.com/#create/Microsoft.Search!! in the Azure portal, search for !!**AI search**!! and click on icon.
 
     ![](./media/image15.png)
 
@@ -161,14 +161,14 @@ portal.
 In the Azure AI Foundry portal, check for an Azure AI Search connected
 resource.
 
-1.  In Azure AI Foundry +++https://ai.azure.com/+++, go to your project and
+1.  In Azure AI Foundry !!https://ai.azure.com/!!, go to your project and
     select **Management center** from the left pane.
 
     ![](./media/image20.png)
 
 
 2.  In the **Connected resources** section, look to see if you have a
-    connection of type +++**Azure AI Search**+++. Otherwise, select **New connection** and then **Azure AI Search**.
+    connection of type !!**Azure AI Search**!!. Otherwise, select **New connection** and then **Azure AI Search**.
 
     ![](./media/image21.png)
 
@@ -285,7 +285,7 @@ Activating the Python environment means that when you run python or pip from
 
 Install **azure-ai-projects(preview) and azure-ai-inference (preview)**,along with other required packages.
 
-5.  Create a file named +++**requirements.txt**+++ in your **ProjectXXXX** folder and add the following packages. After adding packages go to files and select **Save All**:
+5.  Create a file named !!**requirements.txt**!! in your **ProjectXXXX** folder and add the following packages. After adding packages go to files and select **Save All**:
 
 
 ```
@@ -331,7 +331,7 @@ py -3 -m venv .venv
 ![](./media/image39.png)
 
 
-8.  Run the +++**az login**+++ command and do the login with your credentials.
+8.  Run the !!**az login**!! command and do the login with your credentials.
 
     ![](./media/image40.png)
 
@@ -380,7 +380,7 @@ mkdir src
 ![](./media/image44.png)
 
 
-2.  Create a new file in **src** folder and name it +++**config.py**+++ 
+2.  Create a new file in **src** folder and name it !!**config.py**!! 
 
 ![](./media/image45.png)
 
@@ -500,14 +500,14 @@ CompleteExercise 1 - Create resources for building a custom chat application wit
 
 The goal with this RAG-based application is to ground the model responses in your custom data. You use an Azure AI Search index that stores vectorized data from the embeddings model. The search index is used to retrieve relevant documents based on the user's question.
 
-1.  Create an +++**assets**+++
+1.  Create an !!**assets**!!
 2.   directory in your project folder\src.
 
 
 ![](./media/image50.png)
 
 
-2.  Copy **products.csv** file from Lab files and paste it in +++**Project0612/src/assets**+++ folder.
+2.  Copy **products.csv** file from Lab files and paste it in !!**Project0612/src/assets**!! folder.
 
 ![](./media/image51.png)
 
@@ -523,7 +523,7 @@ The goal with this RAG-based application is to ground the model responses in you
 
 The search index is used to store vectorized data from the embeddings model. The search index is used to retrieve relevant documents based on the user's question.
 
-1.  On your VS code create the file +++**create_search_index.py**+++ in your src folder here it is (that is, the same directory where you placed your **assets** folder, not inside the **assets** folder).
+1.  On your VS code create the file !!**create_search_index.py**!! in your src folder here it is (that is, the same directory where you placed your **assets** folder, not inside the **assets** folder).
 
 ![](./media/image54.png)
 
@@ -807,7 +807,7 @@ Next, you create a script to get product documents from the search index. The sc
 When the chat gets a request, it searches through your data to find relevant information. This script uses the Azure AI SDK to query the search index for documents that match a user's question. It then returns the documents to the chat app.
 
 
-1.  Create the +++**get_product_documents.py**+++ file in your main directory(src directory). Copy and paste the following code into the file.
+1.  Create the !!**get_product_documents.py**!! file in your main directory(src directory). Copy and paste the following code into the file.
 
 ![](./media/image64.png)
 
@@ -964,7 +964,7 @@ if __name__ == "__main__":
 
 The **get_product_documents.py** script uses a prompt template to convert the conversation to a search query. The template instructs how to extract the user's intent from the conversation.
 
-1. Before you run the script, create the prompt template. Add the file +++**intent_mapping.prompty**+++ to your assets folder:
+1. Before you run the script, create the prompt template. Add the file !!**intent_mapping.prompty**!! to your assets folder:
 
 ![](./media/image67.png)
 
@@ -1056,7 +1056,7 @@ Next you create custom code to add retrieval augmented generation (RAG) capabili
 **Create a chat script with RAG capabilities**
 
 1.  In your src folder, create a new file
-    called +++**chat_with_products.py**+++. This script retrieves product documents and generates a response to a user's question.
+    called !!**chat_with_products.py**!!. This script retrieves product documents and generates a response to a user's question.
 
 ![](./media/image70.png)
 
@@ -1160,7 +1160,7 @@ if __name__ == "__main__":
 
 The chat_with_products.py script calls a prompt template to generate a response to the user's question. The template instructs how to generate a response based on the user's question and the retrieved documents. Create this template now.
 
-1.  In your **assets** folder, add the file +++**grounded_chat.prompty**+++
+1.  In your **assets** folder, add the file !!**grounded_chat.prompty**!!
 
 ![](./media/image74.png)
 
@@ -1254,7 +1254,7 @@ Once you run an evaluation, you can then make improvements to your logic, like i
 Use the following evaluation dataset, which contains example questions and expected answers (truth).
 
 
-1.  Create a file called +++**chat_eval_data.jsonl**+++ in
+1.  Create a file called !!**chat_eval_data.jsonl**!! in
     your **assets** folder.
 
 ![](./media/image79.png)
@@ -1304,7 +1304,7 @@ results in the command line, and to a json file.
 The script also logs the evaluation results to the cloud project so that
 you can compare evaluation runs in the UI.
 
-1.  Create a file called +++**evaluate.py**+++ in your main folder(src folder).
+1.  Create a file called !!**evaluate.py**!! in your main folder(src folder).
 
 ![](./media/image81.png)
 
