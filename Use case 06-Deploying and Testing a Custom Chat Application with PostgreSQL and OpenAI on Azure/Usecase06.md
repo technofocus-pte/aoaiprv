@@ -264,7 +264,7 @@ functionality.
 2.  Sign in to Azure with the Azure Developer CLI. Run the following
     command on the Terminal
     ```
-    azd auth login
+    az login
     ```
       ![](./media/image46.png)
 
